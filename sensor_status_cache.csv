@@ -1,0 +1,985 @@
+id_sensore,nome_stazione,comune,provincia,status,data_count_2019,first_date,last_date,avg_value,has_data
+5504,Milano v.Marche,Milano,MI,✅ Available,8385,2019-01-01,2019-12-31,57.56082289803221,True
+5505,Milano v.Juvara,Milano,MI,❌ No data,0,N/A,N/A,,False
+5506,Milano P.zza Zavattari,Milano,MI,❌ No data,0,N/A,N/A,,False
+5507,Sesto San Giovanni v. Cesare da Sesto,Sesto San Giovanni,MI,✅ Available,8593,2019-01-01,2019-12-31,42.23285232165716,True
+5508,Legnano v.Diaz,Legnano,MI,❌ No data,0,N/A,N/A,,False
+5510,Villasanta v. A. Volta,Villasanta,MB,❌ No data,0,N/A,N/A,,False
+5511,Cassano d'Adda v.di Vona,Cassano d'Adda,MI,❌ No data,0,N/A,N/A,,False
+5512,Rivolta d'Adda v.Beccaria,Rivolta d'Adda,CR,❌ No data,0,N/A,N/A,,False
+5513,Inzago v.le Gramsci,Inzago,MI,❌ No data,0,N/A,N/A,,False
+5514,Abbiategrasso v. Serafino Dell'Uomo,Abbiategrasso,MI,❌ No data,0,N/A,N/A,,False
+5515,Carate Brianza v.De Gasperi,Carate Brianza,MB,❌ No data,0,N/A,N/A,,False
+5516,Trezzo sull'Adda v.Nenni,Trezzo sull'Adda,MI,❌ No data,0,N/A,N/A,,False
+5517,Rho via Buon Gesù,Rho,MI,✅ Available,7706,2019-01-01,2019-12-31,40.68285751362575,True
+5518,Pero SS Sempione,Pero,MI,❌ No data,0,N/A,N/A,,False
+5519,Robecchetto con Induno v. Pertini,Robecchetto con Induno,MI,❌ No data,0,N/A,N/A,,False
+5520,Turbigo,Turbigo,MI,✅ Available,8655,2019-01-01,2019-12-31,22.976221837088392,True
+5521,Galliate strada del Piaggio,Galliate,NO,❌ No data,0,N/A,N/A,,False
+5522,Tribiano,Tribiano,MI,❌ No data,0,N/A,N/A,,False
+5528,Corsico v.le Italia,Corsico,MI,❌ No data,0,N/A,N/A,,False
+5530,Castano Primo v. Olimpiadi,Castano Primo,MI,❌ No data,0,N/A,N/A,,False
+5531,Milano Verziere,Milano,MI,✅ Available,8603,2019-01-01,2019-12-31,39.86769731489015,True
+5532,Cinisello Balsamo v.Lincoln,Cinisello Balsamo,MI,✅ Available,7142,2019-01-01,2019-12-31,48.950112013441604,True
+5533,Agrate Brianza v.Ferrario,Agrate Brianza,MB,❌ No data,0,N/A,N/A,,False
+5534,Pioltello Limito,Pioltello,MI,✅ Available,8538,2019-01-01,2019-12-31,33.840993206840004,True
+5535,Cuggiono v. Languria,Cuggiono,MI,❌ No data,0,N/A,N/A,,False
+5538,Lacchiarella v.Molise,Lacchiarella,MI,❌ No data,0,N/A,N/A,,False
+5539,Arese v. Matteotti,Arese,MI,❌ No data,0,N/A,N/A,,False
+5540,Lainate v.Mengato,Lainate,MI,❌ No data,0,N/A,N/A,,False
+5541,Settimo Milanese v. Della Libertà,Settimo Milanese,MI,❌ No data,0,N/A,N/A,,False
+5542,Milano v.Liguria,Milano,MI,✅ Available,8621,2019-01-01,2019-12-31,39.562127363414916,True
+5543,Garbagnate Milanese v. Villoresi,Garbagnate Milanese,MI,❌ No data,0,N/A,N/A,,False
+5544,Limbiate v. F. Turati,Limbiate,MB,❌ No data,0,N/A,N/A,,False
+5545,Meda v. Gagarin,Meda,MB,✅ Available,7477,2019-01-04,2019-12-31,36.123645847264946,True
+5546,Vimercate v. dell'Ospedale,Vimercate,MB,❌ No data,0,N/A,N/A,,False
+5547,Cormano v. Edison,Cormano,MI,✅ Available,8724,2019-01-01,2019-12-31,45.41679275561669,True
+5548,Motta Visconti v. De Gasperi,Motta Visconti,MI,✅ Available,8615,2019-01-01,2019-12-31,21.875658734764944,True
+5549,Magenta v. F. Turati,Magenta,MI,✅ Available,8368,2019-01-01,2019-12-31,35.411293021032506,True
+5550,Milano Parco Lambro,Milano,MI,❌ No data,0,N/A,N/A,,False
+5551,Milano v.Senato,Milano,MI,✅ Available,8423,2019-01-01,2019-12-31,44.90033242312715,True
+5552,Milano P.zza Abbiategrasso,Milano,MI,❌ No data,0,N/A,N/A,,False
+5554,Arconate v. De Gasperi,Arconate,MI,✅ Available,8317,2019-01-01,2019-12-31,25.28644944090417,True
+5555,Varese v.Vidoletti,Varese,VA,✅ Available,8730,2019-01-01,2019-12-31,21.554902634593354,True
+5556,Saronno v.Marconi,Saronno,VA,❌ No data,0,N/A,N/A,,False
+5557,Saronno v.Santuario,Saronno,VA,✅ Available,8733,2019-01-01,2019-12-31,26.65566242986374,True
+5558,Busto Arsizio v.Magenta,Busto Arsizio,VA,❌ No data,0,N/A,N/A,,False
+5559,Gallarate  P.zza S.Lorenzo,Gallarate,VA,❌ No data,0,N/A,N/A,,False
+5560,Lonate Pozzolo v.Veneto,Lonate Pozzolo,VA,❌ No data,0,N/A,N/A,,False
+5561,Busto Arsizio  Accam,Busto Arsizio,VA,✅ Available,8609,2019-01-01,2019-12-31,30.354199093971427,True
+5562,Somma Lombardo v.Facchinetti,Somma Lombardo,VA,❌ No data,0,N/A,N/A,,False
+5563,Varese v.Copelli,Varese,VA,✅ Available,8716,2019-01-01,2019-12-31,32.77756998623222,True
+5564,Como v.Cattaneo,Como,CO,✅ Available,8548,2019-01-01,2019-12-31,39.864950865699576,True
+5565,Mariano Comense v.le Lombardia,Mariano Comense,CO,❌ No data,0,N/A,N/A,,False
+5566,Fino Mornasco SP27 casa dell'Alpino,Fino Mornasco,CO,❌ No data,0,N/A,N/A,,False
+5567,Erba v. Battisti,Erba,CO,✅ Available,8662,2019-01-01,2019-12-31,20.47216578157469,True
+5568,Cantù v.Meucci,Cantù,CO,✅ Available,8650,2019-01-01,2019-12-31,26.390878612716765,True
+5569,Olgiate Comasco v.Roma,Olgiate Comasco,CO,❌ No data,0,N/A,N/A,,False
+5570,Chiavenna v.Cerletti,Chiavenna,SO,❌ No data,0,N/A,N/A,,False
+5572,Sondrio v.Mazzini,Sondrio,SO,✅ Available,8499,2019-01-01,2019-12-31,25.658324508765737,True
+5573,Tirano Viale Italia,Tirano,SO,❌ No data,0,N/A,N/A,,False
+5574,Bormio v.Monte Braulio,Bormio,SO,✅ Available,8596,2019-01-01,2019-12-31,12.27732666356445,True
+5575,Morbegno v.Cortivacci,Morbegno,SO,✅ Available,8629,2019-01-01,2019-12-31,15.377668327732065,True
+5576,Colico v.La Madoneta,Colico,LC,✅ Available,8607,2019-01-01,2019-12-31,21.374195422330658,True
+5577,Lecco v. Amendola,Lecco,LC,✅ Available,8636,2019-01-01,2019-12-31,35.24821676702177,True
+5578,Nibionno v.della Chiesa,Nibionno,LC,❌ No data,0,N/A,N/A,,False
+5579,Merate v. Madonna di Loreto,Merate,LC,✅ Available,8330,2019-01-01,2019-12-31,33.42422569027612,True
+5580,Calolziocorte c.so Dante,Calolziocorte,LC,❌ No data,0,N/A,N/A,,False
+5581,Varenna v.Polvani,Varenna,LC,❌ No data,0,N/A,N/A,,False
+5586,Bergamo v.Meucci,Bergamo,BG,✅ Available,8543,2019-01-01,2019-12-31,27.97944515977993,True
+5587,Bergamo v.Garibaldi,Bergamo,BG,✅ Available,8570,2019-01-01,2019-12-31,38.61698949824971,True
+5589,Costa Volpino v.Nazionale,Costa Volpino,BG,❌ No data,0,N/A,N/A,,False
+5590,Casnigo via Europa,Casnigo,BG,❌ No data,0,N/A,N/A,,False
+5591,Tavernola Bergamasca v.Riva di Sotto,Tavernola Bergamasca,BG,✅ Available,8486,2019-01-01,2019-12-31,24.526184303558797,True
+5592,Nembro v.Locatelli,Nembro,BG,❌ No data,0,N/A,N/A,,False
+5593,Ponte San Pietro v. Moiolo,Ponte San Pietro,BG,❌ No data,0,N/A,N/A,,False
+5594,Seriate v. Garibaldi,Seriate,BG,❌ No data,0,N/A,N/A,,False
+5595,Treviglio p.zza Insurrezione,Treviglio,BG,✅ Available,8459,2019-01-01,2019-12-31,34.88671237734957,True
+5596,Ciserano c.so Europa,Ciserano,BG,❌ No data,0,N/A,N/A,,False
+5597,Bergamo v.Goisis,Bergamo,BG,❌ No data,0,N/A,N/A,,False
+5598,Filago v.Don Milani,Filago,BG,✅ Available,8602,2019-01-01,2019-12-31,20.68835154615206,True
+5599,Osio Sotto v.per Levate,Osio Sotto,BG,✅ Available,8719,2019-01-01,2019-12-31,24.929384103681613,True
+5600,Lallio v. Sforzatica,Lallio,BG,❌ No data,0,N/A,N/A,,False
+5601,San Rocco al Porto v.Matteotti,San Rocco al Porto,LO,✅ Available,8621,2019-01-01,2019-12-31,20.87199860805011,True
+5603,Lodi v.Vignati,Lodi,LO,✅ Available,8630,2019-01-01,2019-12-31,32.77468134414832,True
+5604,Montanaso Lombardo SP 202,Montanaso Lombardo,LO,❌ No data,0,N/A,N/A,,False
+5605,Melegnano v.Predabissi,Melegnano,MI,❌ No data,0,N/A,N/A,,False
+5606,Castiraga Vidardo v.Craxi,Castiraga Vidardo,LO,❌ No data,0,N/A,N/A,,False
+5607,Tavazzano con Villavesco v.Cascina Bagnolo,Tavazzano con Villavesco,LO,✅ Available,8626,2019-01-01,2019-12-31,24.725249246464177,True
+5609,San Giuliano Milanese via Milano,San Giuliano Milanese,MI,✅ Available,8138,2019-01-01,2019-12-31,43.29636274268862,True
+5610,Abbadia Cerreto v. Fanfulla,Abbadia Cerreto,LO,✅ Available,8440,2019-01-01,2019-12-31,21.68420616113744,True
+5611,Codogno v.Trento,Codogno,LO,✅ Available,8552,2019-01-01,2019-12-31,30.92181945743686,True
+5612,Agrate Brianza v.Ferrario,Agrate Brianza,MB,❌ No data,0,N/A,N/A,,False
+5613,Arese v. Matteotti,Arese,MI,❌ No data,0,N/A,N/A,,False
+5614,Castano Primo v. Olimpiadi,Castano Primo,MI,❌ No data,0,N/A,N/A,,False
+5615,Carate Brianza v.De Gasperi,Carate Brianza,MB,❌ No data,0,N/A,N/A,,False
+5616,Casirate d'Adda v. Cimitero,Casirate d'Adda,BG,❌ No data,0,N/A,N/A,,False
+5617,Cassano d'Adda v.di Vona,Cassano d'Adda,MI,❌ No data,0,N/A,N/A,,False
+5618,Cinisello Balsamo v.Lincoln,Cinisello Balsamo,MI,❌ No data,0,N/A,N/A,,False
+5619,Cormano v. Edison,Cormano,MI,✅ Available,7687,2019-01-01,2019-12-31,3.406010147001431,True
+5620,Corsico v.le Italia,Corsico,MI,❌ No data,0,N/A,N/A,,False
+5621,Cuggiono v. Languria,Cuggiono,MI,❌ No data,0,N/A,N/A,,False
+5622,Galliate strada del Piaggio,Galliate,NO,❌ No data,0,N/A,N/A,,False
+5623,Cassano d'Adda v.le delle Rimembranze,Cassano d'Adda,MI,❌ No data,0,N/A,N/A,,False
+5624,Inzago v.le Gramsci,Inzago,MI,❌ No data,0,N/A,N/A,,False
+5625,Milano v.Juvara,Milano,MI,❌ No data,0,N/A,N/A,,False
+5626,Lainate v.Mengato,Lainate,MI,❌ No data,0,N/A,N/A,,False
+5627,Legnano v.Diaz,Legnano,MI,❌ No data,0,N/A,N/A,,False
+5628,Milano v.Liguria,Milano,MI,❌ No data,0,N/A,N/A,,False
+5629,Limbiate v. F. Turati,Limbiate,MB,❌ No data,0,N/A,N/A,,False
+5630,Pioltello Limito,Pioltello,MI,✅ Available,8476,2019-01-01,2019-12-31,2.497121283624351,True
+5631,Magenta v. F. Turati,Magenta,MI,✅ Available,8538,2019-01-01,2019-12-31,2.647587256968845,True
+5636,Pero SS Sempione,Pero,MI,❌ No data,0,N/A,N/A,,False
+5637,Milano P.zza Abbiategrasso,Milano,MI,❌ No data,0,N/A,N/A,,False
+5638,Rho via Buon Gesù,Rho,MI,❌ No data,0,N/A,N/A,,False
+5639,Rivolta d'Adda v.Beccaria,Rivolta d'Adda,CR,❌ No data,0,N/A,N/A,,False
+5640,Robecchetto con Induno v. Pertini,Robecchetto con Induno,MI,❌ No data,0,N/A,N/A,,False
+5642,Sesto San Giovanni v. Cesare da Sesto,Sesto San Giovanni,MI,❌ No data,0,N/A,N/A,,False
+5643,Settimo Milanese v. Della Libertà,Settimo Milanese,MI,❌ No data,0,N/A,N/A,,False
+5644,Tribiano,Tribiano,MI,❌ No data,0,N/A,N/A,,False
+5646,Turbigo,Turbigo,MI,✅ Available,7921,2019-01-01,2019-12-31,3.1513445272061604,True
+5647,Milano Verziere,Milano,MI,❌ No data,0,N/A,N/A,,False
+5648,Villasanta v. A. Volta,Villasanta,MB,❌ No data,0,N/A,N/A,,False
+5649,Vimercate v. dell'Ospedale,Vimercate,MB,❌ No data,0,N/A,N/A,,False
+5650,Milano P.zza Zavattari,Milano,MI,❌ No data,0,N/A,N/A,,False
+5651,Milano v.Marche,Milano,MI,❌ No data,0,N/A,N/A,,False
+5652,Busto Arsizio  Accam,Busto Arsizio,VA,✅ Available,8461,2019-01-01,2019-12-30,2.6852736083205295,True
+5653,Busto Arsizio v.Magenta,Busto Arsizio,VA,❌ No data,0,N/A,N/A,,False
+5654,Gallarate  P.zza S.Lorenzo,Gallarate,VA,❌ No data,0,N/A,N/A,,False
+5655,Lonate Pozzolo v.Veneto,Lonate Pozzolo,VA,❌ No data,0,N/A,N/A,,False
+5656,Saronno v.Marconi,Saronno,VA,❌ No data,0,N/A,N/A,,False
+5657,Saronno v.Santuario,Saronno,VA,❌ No data,0,N/A,N/A,,False
+5658,Varese v.Vidoletti,Varese,VA,✅ Available,8732,2019-01-01,2019-12-31,2.1065506184150253,True
+5659,Nembro v.Locatelli,Nembro,BG,❌ No data,0,N/A,N/A,,False
+5660,Ponte San Pietro v. Moiolo,Ponte San Pietro,BG,❌ No data,0,N/A,N/A,,False
+5661,Seriate v. Garibaldi,Seriate,BG,❌ No data,0,N/A,N/A,,False
+5662,Treviglio p.zza Insurrezione,Treviglio,BG,✅ Available,8725,2019-01-01,2019-12-31,1.6938796561604585,True
+5663,Ciserano c.so Europa,Ciserano,BG,❌ No data,0,N/A,N/A,,False
+5664,Filago v.Fermi,Filago,BG,❌ No data,0,N/A,N/A,,False
+5665,Filago v.Don Milani,Filago,BG,✅ Available,8171,2019-01-01,2019-12-31,1.2719740545832823,True
+5666,Bergamo v.Goisis,Bergamo,BG,❌ No data,0,N/A,N/A,,False
+5668,Lallio v. Sforzatica,Lallio,BG,❌ No data,0,N/A,N/A,,False
+5669,Bergamo v.Meucci,Bergamo,BG,❌ No data,0,N/A,N/A,,False
+5670,Bergamo v.Garibaldi,Bergamo,BG,✅ Available,8445,2019-01-01,2019-12-31,2.1952397868561278,True
+5672,Costa Volpino v.Nazionale,Costa Volpino,BG,❌ No data,0,N/A,N/A,,False
+5673,Casnigo via Europa,Casnigo,BG,❌ No data,0,N/A,N/A,,False
+5674,Tavernola Bergamasca v.Riva di Sotto,Tavernola Bergamasca,BG,❌ No data,0,N/A,N/A,,False
+5675,Cantù v.Meucci,Cantù,CO,❌ No data,0,N/A,N/A,,False
+5676,Como v.Cattaneo,Como,CO,✅ Available,8420,2019-01-01,2019-12-31,1.6216983372921616,True
+5677,Erba v. Battisti,Erba,CO,✅ Available,8695,2019-01-01,2019-12-31,1.4158596894767106,True
+5678,Fino Mornasco SP27 casa dell'Alpino,Fino Mornasco,CO,❌ No data,0,N/A,N/A,,False
+5679,Mariano Comense v.le Lombardia,Mariano Comense,CO,❌ No data,0,N/A,N/A,,False
+5680,Olgiate Comasco v.Roma,Olgiate Comasco,CO,❌ No data,0,N/A,N/A,,False
+5681,Calolziocorte c.so Dante,Calolziocorte,LC,❌ No data,0,N/A,N/A,,False
+5683,Colico v.La Madoneta,Colico,LC,✅ Available,8403,2019-01-01,2019-12-31,1.529441866000238,True
+5685,Merate v. Madonna di Loreto,Merate,LC,❌ No data,0,N/A,N/A,,False
+5686,Nibionno v.della Chiesa,Nibionno,LC,❌ No data,0,N/A,N/A,,False
+5688,Varenna v.Polvani,Varenna,LC,❌ No data,0,N/A,N/A,,False
+5689,Abbadia Cerreto v. Fanfulla,Abbadia Cerreto,LO,❌ No data,0,N/A,N/A,,False
+5690,Castiraga Vidardo v.Craxi,Castiraga Vidardo,LO,❌ No data,0,N/A,N/A,,False
+5691,Codogno v.Trento,Codogno,LO,✅ Available,8472,2019-01-01,2019-12-31,3.415604343720491,True
+5693,Lodi v.Vignati,Lodi,LO,✅ Available,8348,2019-01-01,2019-12-31,3.9611403929084807,True
+5694,Melegnano v.Predabissi,Melegnano,MI,❌ No data,0,N/A,N/A,,False
+5695,Montanaso Lombardo SP 202,Montanaso Lombardo,LO,❌ No data,0,N/A,N/A,,False
+5696,San Giuliano Milanese via Milano,San Giuliano Milanese,MI,❌ No data,0,N/A,N/A,,False
+5697,Spino d'Adda SP1,Spino d'Adda,CR,❌ No data,0,N/A,N/A,,False
+5698,Tavazzano con Villavesco v.Cascina Bagnolo,Tavazzano con Villavesco,LO,✅ Available,8681,2019-01-01,2019-12-31,3.2542218638405713,True
+5700,Bormio v.Monte Braulio,Bormio,SO,✅ Available,8671,2019-01-01,2019-12-31,1.4115788259716295,True
+5701,Chiavenna v.Cerletti,Chiavenna,SO,❌ No data,0,N/A,N/A,,False
+5703,Morbegno v.Cortivacci,Morbegno,SO,❌ No data,0,N/A,N/A,,False
+5704,Sondrio v.Mazzini,Sondrio,SO,✅ Available,8590,2019-01-01,2019-12-31,1.650395809080326,True
+5705,Tirano Viale Italia,Tirano,SO,❌ No data,0,N/A,N/A,,False
+5706,Agrate Brianza v.Ferrario,Agrate Brianza,MB,❌ No data,0,N/A,N/A,,False
+5707,Arconate v. De Gasperi,Arconate,MI,✅ Available,8356,2019-01-01,2019-12-31,45.7144327429392,True
+5708,Arese v. Matteotti,Arese,MI,❌ No data,0,N/A,N/A,,False
+5709,Carate Brianza v.De Gasperi,Carate Brianza,MB,❌ No data,0,N/A,N/A,,False
+5710,Cormano v. Edison,Cormano,MI,✅ Available,7929,2019-01-01,2019-12-16,46.09289948291083,True
+5711,Corsico v.le Italia,Corsico,MI,❌ No data,0,N/A,N/A,,False
+5712,Inzago v.le Gramsci,Inzago,MI,❌ No data,0,N/A,N/A,,False
+5713,Milano v.Juvara,Milano,MI,❌ No data,0,N/A,N/A,,False
+5714,Lacchiarella v.Molise,Lacchiarella,MI,❌ No data,0,N/A,N/A,,False
+5715,Legnano v.Diaz,Legnano,MI,❌ No data,0,N/A,N/A,,False
+5716,Limbiate v. F. Turati,Limbiate,MB,❌ No data,0,N/A,N/A,,False
+5717,Pioltello Limito,Pioltello,MI,✅ Available,8558,2019-01-01,2019-12-31,44.430018695956996,True
+5718,Magenta v. F. Turati,Magenta,MI,✅ Available,8488,2019-01-01,2019-12-31,42.09805607917058,True
+5719,Meda v. Gagarin,Meda,MB,✅ Available,7971,2019-01-04,2019-12-31,52.47187303976916,True
+5721,Motta Visconti v. De Gasperi,Motta Visconti,MI,✅ Available,8315,2019-01-01,2019-12-31,54.438147925435956,True
+5722,Milano Parco Lambro,Milano,MI,❌ No data,0,N/A,N/A,,False
+5724,Trezzo sull'Adda v.Nenni,Trezzo sull'Adda,MI,❌ No data,0,N/A,N/A,,False
+5725,Milano Verziere,Milano,MI,✅ Available,8618,2019-01-01,2019-12-31,46.33706196333256,True
+5727,Vimercate v. dell'Ospedale,Vimercate,MB,❌ No data,0,N/A,N/A,,False
+5728,Bergamo v.Goisis,Bergamo,BG,❌ No 2019 data,0,N/A,N/A,,False
+5730,Erba v. Battisti,Erba,CO,✅ Available,8703,2019-01-01,2019-12-31,64.03865333792943,True
+5731,Olgiate Comasco v.Roma,Olgiate Comasco,CO,❌ No data,0,N/A,N/A,,False
+5732,Colico v.La Madoneta,Colico,LC,✅ Available,8471,2019-01-01,2019-12-31,45.743949946877585,True
+5733,Lecco v. Amendola,Lecco,LC,❌ No data,0,N/A,N/A,,False
+5735,Merate v. Madonna di Loreto,Merate,LC,✅ Available,8355,2019-01-01,2019-12-31,47.16981448234589,True
+5736,Nibionno v.della Chiesa,Nibionno,LC,❌ No data,0,N/A,N/A,,False
+5737,Varenna v.Polvani,Varenna,LC,❌ No data,0,N/A,N/A,,False
+5738,Abbadia Cerreto v. Fanfulla,Abbadia Cerreto,LO,✅ Available,8442,2019-01-01,2019-12-31,45.45991471215351,True
+5739,Bormio v.Monte Braulio,Bormio,SO,✅ Available,8512,2019-01-01,2019-12-31,62.10592105263158,True
+5740,Chiavenna v.Cerletti,Chiavenna,SO,❌ No data,0,N/A,N/A,,False
+5742,Morbegno v.Cortivacci,Morbegno,SO,✅ Available,8590,2019-01-01,2019-12-31,50.701338766006984,True
+5743,Sondrio v.Mazzini,Sondrio,SO,❌ No data,0,N/A,N/A,,False
+5744,Busto Arsizio v.Magenta,Busto Arsizio,VA,❌ No data,0,N/A,N/A,,False
+5745,Gallarate  P.zza S.Lorenzo,Gallarate,VA,❌ No data,0,N/A,N/A,,False
+5746,Lonate Pozzolo v.Veneto,Lonate Pozzolo,VA,❌ No data,0,N/A,N/A,,False
+5747,Somma Lombardo v.Facchinetti,Somma Lombardo,VA,❌ No data,0,N/A,N/A,,False
+5749,Saronno v.Santuario,Saronno,VA,✅ Available,8714,2019-01-01,2019-12-31,47.597934358503565,True
+5750,Varese v.Vidoletti,Varese,VA,✅ Available,8733,2019-01-01,2019-12-31,58.30736287644566,True
+5753,Saronno v.Marconi,Saronno,VA,❌ No data,0,N/A,N/A,,False
+5757,Ponte San Pietro v. Moiolo,Ponte San Pietro,BG,❌ No data,0,N/A,N/A,,False
+5768,Mariano Comense v.le Lombardia,Mariano Comense,CO,❌ No data,0,N/A,N/A,,False
+5769,Olgiate Comasco v.Roma,Olgiate Comasco,CO,❌ No data,0,N/A,N/A,,False
+5787,Nembro v.Locatelli,Nembro,BG,❌ No data,0,N/A,N/A,,False
+5788,Ponte San Pietro v. Moiolo,Ponte San Pietro,BG,❌ No data,0,N/A,N/A,,False
+5789,Seriate v. Garibaldi,Seriate,BG,❌ No data,0,N/A,N/A,,False
+5790,Treviglio p.zza Insurrezione,Treviglio,BG,✅ Available,8637,2019-01-01,2019-12-31,0.4123422484659025,True
+5791,Ciserano c.so Europa,Ciserano,BG,❌ No data,0,N/A,N/A,,False
+5792,Bergamo v.Goisis,Bergamo,BG,❌ No data,0,N/A,N/A,,False
+5794,Bergamo v.Garibaldi,Bergamo,BG,✅ Available,8589,2019-01-01,2019-12-31,0.49819536616602633,True
+5796,Costa Volpino v.Nazionale,Costa Volpino,BG,❌ No data,0,N/A,N/A,,False
+5797,Cantù v.Meucci,Cantù,CO,✅ Available,8487,2019-01-01,2019-12-31,0.3758336279014964,True
+5798,Como v.Cattaneo,Como,CO,✅ Available,8366,2019-01-04,2019-12-31,0.583385130289266,True
+5799,Erba v. Battisti,Erba,CO,❌ No data,0,N/A,N/A,,False
+5800,Fino Mornasco SP27 casa dell'Alpino,Fino Mornasco,CO,❌ No data,0,N/A,N/A,,False
+5801,Mariano Comense v.le Lombardia,Mariano Comense,CO,❌ No data,0,N/A,N/A,,False
+5802,Olgiate Comasco v.Roma,Olgiate Comasco,CO,❌ No data,0,N/A,N/A,,False
+5803,Calolziocorte c.so Dante,Calolziocorte,LC,❌ No data,0,N/A,N/A,,False
+5805,Lecco v. Amendola,Lecco,LC,✅ Available,8691,2019-01-01,2019-12-31,0.4344724427568749,True
+5807,Merate v. Madonna di Loreto,Merate,LC,✅ Available,7763,2019-01-03,2019-12-31,0.4478165657606596,True
+5809,Lodi v.Vignati,Lodi,LO,✅ Available,8675,2019-01-01,2019-12-31,0.5899942363112392,True
+5810,Melegnano v.Predabissi,Melegnano,MI,❌ No data,0,N/A,N/A,,False
+5811,San Rocco al Porto v.Matteotti,San Rocco al Porto,LO,✅ Available,8544,2019-01-01,2019-12-31,0.4086025280898876,True
+5812,San Giuliano Milanese via Milano,San Giuliano Milanese,MI,✅ Available,7688,2019-01-01,2019-12-31,0.8151534859521331,True
+5813,Abbiategrasso v. Serafino Dell'Uomo,Abbiategrasso,MI,❌ No data,0,N/A,N/A,,False
+5814,Arconate v. De Gasperi,Arconate,MI,✅ Available,8485,2019-01-01,2019-12-31,0.6195875073659399,True
+5815,Arese v. Matteotti,Arese,MI,❌ No data,0,N/A,N/A,,False
+5816,Carate Brianza v.De Gasperi,Carate Brianza,MB,❌ No data,0,N/A,N/A,,False
+5818,Cinisello Balsamo v.Lincoln,Cinisello Balsamo,MI,❌ No data,0,N/A,N/A,,False
+5819,Cormano v. Edison,Cormano,MI,❌ No data,0,N/A,N/A,,False
+5820,Corsico v.le Italia,Corsico,MI,❌ No data,0,N/A,N/A,,False
+5821,Garbagnate Milanese v. Villoresi,Garbagnate Milanese,MI,❌ No data,0,N/A,N/A,,False
+5822,Legnano v.Diaz,Legnano,MI,❌ No data,0,N/A,N/A,,False
+5823,Milano v.Liguria,Milano,MI,✅ Available,8654,2019-01-01,2019-12-31,0.7978044834758493,True
+5824,Limbiate v. F. Turati,Limbiate,MB,❌ No data,0,N/A,N/A,,False
+5825,Pioltello Limito,Pioltello,MI,✅ Available,8202,2019-01-01,2019-12-31,0.39385515727871256,True
+5826,Magenta v. F. Turati,Magenta,MI,✅ Available,8311,2019-01-01,2019-12-31,0.6919865238840092,True
+5827,Milano v.Marche,Milano,MI,✅ Available,8320,2019-01-01,2019-12-31,0.8481490384615384,True
+5828,Meda v. Gagarin,Meda,MB,✅ Available,7854,2019-01-04,2019-12-31,0.7385281385281386,True
+5831,Pero SS Sempione,Pero,MI,❌ No data,0,N/A,N/A,,False
+5832,Rho via Buon Gesù,Rho,MI,✅ Available,8524,2019-01-01,2019-12-31,0.8101947442515252,True
+5834,Milano v.Senato,Milano,MI,✅ Available,8643,2019-01-01,2019-12-31,0.8864977438389449,True
+5835,Sesto San Giovanni v. Cesare da Sesto,Sesto San Giovanni,MI,✅ Available,7678,2019-01-01,2019-12-31,0.6510419380046887,True
+5836,Settimo Milanese v. Della Libertà,Settimo Milanese,MI,❌ No data,0,N/A,N/A,,False
+5837,Trezzo sull'Adda v.Nenni,Trezzo sull'Adda,MI,❌ No data,0,N/A,N/A,,False
+5838,Milano Verziere,Milano,MI,❌ No data,0,N/A,N/A,,False
+5839,Villasanta v. A. Volta,Villasanta,MB,❌ No data,0,N/A,N/A,,False
+5840,Vimercate v. dell'Ospedale,Vimercate,MB,❌ No data,0,N/A,N/A,,False
+5841,Milano P.zza Zavattari,Milano,MI,❌ No data,0,N/A,N/A,,False
+5842,Bormio v.Monte Braulio,Bormio,SO,✅ Available,8382,2019-01-01,2019-12-31,0.37128370317346693,True
+5844,Morbegno v.Cortivacci,Morbegno,SO,✅ Available,8707,2019-01-01,2019-12-31,0.39834615826346614,True
+5845,Sondrio v.Mazzini,Sondrio,SO,✅ Available,8137,2019-01-01,2019-12-31,0.4582155585596657,True
+5846,Tirano Viale Italia,Tirano,SO,❌ No data,0,N/A,N/A,,False
+5847,Busto Arsizio  Accam,Busto Arsizio,VA,✅ Available,8614,2019-01-01,2019-12-31,0.4519270954260506,True
+5848,Busto Arsizio v.Magenta,Busto Arsizio,VA,❌ No data,0,N/A,N/A,,False
+5849,Gallarate  P.zza S.Lorenzo,Gallarate,VA,❌ No data,0,N/A,N/A,,False
+5850,Lonate Pozzolo v.Veneto,Lonate Pozzolo,VA,❌ No data,0,N/A,N/A,,False
+5851,Somma Lombardo v.Facchinetti,Somma Lombardo,VA,❌ No data,0,N/A,N/A,,False
+5852,Saronno v.Marconi,Saronno,VA,❌ No data,0,N/A,N/A,,False
+5853,Varese v.Copelli,Varese,VA,✅ Available,8462,2019-01-01,2019-12-31,0.4567714488300638,True
+5854,Varese v.Vidoletti,Varese,VA,❌ No data,0,N/A,N/A,,False
+5855,Lainate v.Mengato,Lainate,MI,❌ No data,0,N/A,N/A,,False
+5948,Casalmaggiore v.Volta,Casalmaggiore,CR,❌ No data,0,N/A,N/A,,False
+5949,Casalmaggiore v.Volta,Casalmaggiore,CR,❌ No data,0,N/A,N/A,,False
+5950,Corte de' Cortesi con Cignone v. Villa Strada Forca,Corte de' Cortesi con Cignone,CR,✅ Available,8705,2019-01-01,2019-12-31,22.46879954049397,True
+5951,Corte de' Cortesi con Cignone v. Villa Strada Forca,Corte de' Cortesi con Cignone,CR,❌ No data,0,N/A,N/A,,False
+5952,Corte de' Cortesi con Cignone v. Villa Strada Forca,Corte de' Cortesi con Cignone,CR,✅ Available,8654,2019-01-01,2019-12-31,43.292870348971576,True
+5953,Cremona P.zza Cadorna,Cremona,CR,✅ Available,8720,2019-01-01,2019-12-31,28.511272935779818,True
+5954,Cremona P.zza Cadorna,Cremona,CR,❌ No data,0,N/A,N/A,,False
+5955,Cremona p.zza Libertà,Cremona,CR,❌ No data,0,N/A,N/A,,False
+5956,Cremona p.zza Libertà,Cremona,CR,❌ No data,0,N/A,N/A,,False
+5957,Cremona p.zza Libertà,Cremona,CR,❌ No data,0,N/A,N/A,,False
+5958,Crema v.XI febbraio,Crema,CR,✅ Available,8431,2019-01-01,2019-12-31,27.580464950776896,True
+5959,Crema v.XI febbraio,Crema,CR,✅ Available,8678,2019-01-01,2019-12-31,2.4508988246139665,True
+5960,Crema v.XI febbraio,Crema,CR,✅ Available,8679,2019-01-01,2019-12-31,46.962795252909316,True
+5961,Crema v.Indipendenza,Crema,CR,❌ No data,0,N/A,N/A,,False
+5962,Crema v.Indipendenza,Crema,CR,❌ No data,0,N/A,N/A,,False
+5963,Piadena v. Cavour,Piadena,CR,❌ No data,0,N/A,N/A,,False
+5964,Pizzighettone v.Formigara,Pizzighettone,CR,❌ No data,0,N/A,N/A,,False
+5965,Soresina v. Landriani,Soresina,CR,✅ Available,8603,2019-01-01,2019-12-31,29.10471928397071,True
+5989,Bergamo v.Garibaldi,Bergamo,BG,✅ Available,8642,2019-01-01,2019-12-31,0.8661073825503354,True
+6005,Cremona P.zza Cadorna,Cremona,CR,✅ Available,8719,2019-01-01,2019-12-31,0.9040945062507166,True
+6037,Cormano v. Edison,Cormano,MI,❌ No data,0,N/A,N/A,,False
+6057,Milano v.Senato,Milano,MI,✅ Available,6721,2019-01-01,2019-12-31,1.4792887963100727,True
+6059,Trezzo sull'Adda v.Nenni,Trezzo sull'Adda,MI,❌ No data,0,N/A,N/A,,False
+6062,Milano P.zza Zavattari,Milano,MI,❌ No data,0,N/A,N/A,,False
+6083,Somma Lombardo v.Facchinetti,Somma Lombardo,VA,❌ No data,0,N/A,N/A,,False
+6198,Nembro v.Locatelli,Nembro,BG,❌ No data,0,N/A,N/A,,False
+6200,Ponte San Pietro v. Moiolo,Ponte San Pietro,BG,❌ No data,0,N/A,N/A,,False
+6202,Seriate v. Garibaldi,Seriate,BG,❌ No data,0,N/A,N/A,,False
+6204,Treviglio p.zza Insurrezione,Treviglio,BG,✅ Available,8459,2019-01-01,2019-12-31,68.38548291760254,True
+6206,Ciserano c.so Europa,Ciserano,BG,❌ No data,0,N/A,N/A,,False
+6208,Filago v.Don Milani,Filago,BG,✅ Available,8603,2019-01-01,2019-12-31,39.2608276182727,True
+6210,Bergamo v.Goisis,Bergamo,BG,❌ No data,0,N/A,N/A,,False
+6212,Osio Sotto v.per Levate,Osio Sotto,BG,✅ Available,8723,2019-01-01,2019-12-31,41.75753754442279,True
+6216,Lallio v. Sforzatica,Lallio,BG,❌ No data,0,N/A,N/A,,False
+6218,Bergamo v.Meucci,Bergamo,BG,✅ Available,8542,2019-01-01,2019-12-31,44.38598688831655,True
+6220,Bergamo v.Garibaldi,Bergamo,BG,✅ Available,8587,2019-01-01,2019-12-31,62.56483055781995,True
+6224,Costa Volpino v.Nazionale,Costa Volpino,BG,❌ No data,0,N/A,N/A,,False
+6226,Casnigo via Europa,Casnigo,BG,❌ No data,0,N/A,N/A,,False
+6228,Tavernola Bergamasca v.Riva di Sotto,Tavernola Bergamasca,BG,✅ Available,8484,2019-01-01,2019-12-31,42.56479255068365,True
+6230,Cantù v.Meucci,Cantù,CO,✅ Available,8649,2019-01-01,2019-12-31,43.46295525494276,True
+6232,Como v.Cattaneo,Como,CO,✅ Available,8554,2019-01-01,2019-12-31,82.4948795884966,True
+6234,Erba v. Battisti,Erba,CO,✅ Available,8663,2019-01-01,2019-12-31,30.89351263996306,True
+6236,Fino Mornasco SP27 casa dell'Alpino,Fino Mornasco,CO,❌ No data,0,N/A,N/A,,False
+6238,Mariano Comense v.le Lombardia,Mariano Comense,CO,❌ No data,0,N/A,N/A,,False
+6240,Olgiate Comasco v.Roma,Olgiate Comasco,CO,❌ No data,0,N/A,N/A,,False
+6242,Calolziocorte c.so Dante,Calolziocorte,LC,❌ No data,0,N/A,N/A,,False
+6246,Colico v.La Madoneta,Colico,LC,✅ Available,8606,2019-01-01,2019-12-31,35.216930048803164,True
+6248,Lecco v. Amendola,Lecco,LC,✅ Available,8637,2019-01-01,2019-12-31,67.69654972791479,True
+6252,Merate v. Madonna di Loreto,Merate,LC,✅ Available,8328,2019-01-01,2019-12-31,69.23276897214217,True
+6254,Nibionno v.della Chiesa,Nibionno,LC,❌ No data,0,N/A,N/A,,False
+6258,Varenna v.Polvani,Varenna,LC,❌ No data,0,N/A,N/A,,False
+6260,Abbadia Cerreto v. Fanfulla,Abbadia Cerreto,LO,✅ Available,8440,2019-01-01,2019-12-31,35.000236966824644,True
+6262,Castiraga Vidardo v.Craxi,Castiraga Vidardo,LO,❌ No data,0,N/A,N/A,,False
+6264,Codogno v.Trento,Codogno,LO,✅ Available,8549,2019-01-01,2019-12-31,57.86997309626857,True
+6268,Lodi v.Vignati,Lodi,LO,✅ Available,8629,2019-01-01,2019-12-31,60.564433885734154,True
+6270,Melegnano v.Predabissi,Melegnano,MI,❌ No data,0,N/A,N/A,,False
+6272,Montanaso Lombardo SP 202,Montanaso Lombardo,LO,❌ No data,0,N/A,N/A,,False
+6274,San Rocco al Porto v.Matteotti,San Rocco al Porto,LO,✅ Available,8619,2019-01-01,2019-12-31,34.670216962524655,True
+6276,San Giuliano Milanese via Milano,San Giuliano Milanese,MI,✅ Available,8137,2019-01-01,2019-12-31,95.64082585719552,True
+6278,Spino d'Adda SP1,Spino d'Adda,CR,❌ No data,0,N/A,N/A,,False
+6280,Tavazzano con Villavesco v.Cascina Bagnolo,Tavazzano con Villavesco,LO,✅ Available,8626,2019-01-01,2019-12-31,42.21803848829122,True
+6284,Abbiategrasso v. Serafino Dell'Uomo,Abbiategrasso,MI,❌ No data,0,N/A,N/A,,False
+6286,Agrate Brianza v.Ferrario,Agrate Brianza,MB,❌ No data,0,N/A,N/A,,False
+6288,Arconate v. De Gasperi,Arconate,MI,✅ Available,8315,2019-01-01,2019-12-31,42.49511725796753,True
+6290,Arese v. Matteotti,Arese,MI,❌ No data,0,N/A,N/A,,False
+6292,Castano Primo v. Olimpiadi,Castano Primo,MI,❌ No data,0,N/A,N/A,,False
+6294,Carate Brianza v.De Gasperi,Carate Brianza,MB,❌ No data,0,N/A,N/A,,False
+6296,Cassano d'Adda v.di Vona,Cassano d'Adda,MI,❌ No data,0,N/A,N/A,,False
+6298,Cinisello Balsamo v.Lincoln,Cinisello Balsamo,MI,❌ No data,0,N/A,N/A,,False
+6300,Cormano v. Edison,Cormano,MI,✅ Available,8721,2019-01-01,2019-12-31,89.42388487558766,True
+6302,Corsico v.le Italia,Corsico,MI,❌ No data,0,N/A,N/A,,False
+6304,Cuggiono v. Languria,Cuggiono,MI,❌ No data,0,N/A,N/A,,False
+6306,Galliate strada del Piaggio,Galliate,NO,❌ No data,0,N/A,N/A,,False
+6308,Garbagnate Milanese v. Villoresi,Garbagnate Milanese,MI,❌ No data,0,N/A,N/A,,False
+6310,Inzago v.le Gramsci,Inzago,MI,❌ No data,0,N/A,N/A,,False
+6312,Milano v.Juvara,Milano,MI,❌ No data,0,N/A,N/A,,False
+6314,Lacchiarella v.Molise,Lacchiarella,MI,❌ No data,0,N/A,N/A,,False
+6316,Lainate v.Mengato,Lainate,MI,❌ No data,0,N/A,N/A,,False
+6318,Legnano v.Diaz,Legnano,MI,❌ No data,0,N/A,N/A,,False
+6320,Milano v.Liguria,Milano,MI,✅ Available,8621,2019-01-01,2019-12-31,89.59454819626494,True
+6322,Limbiate v. F. Turati,Limbiate,MB,❌ No data,0,N/A,N/A,,False
+6324,Pioltello Limito,Pioltello,MI,✅ Available,8537,2019-01-01,2019-12-31,73.01552067471009,True
+6326,Magenta v. F. Turati,Magenta,MI,✅ Available,8366,2019-01-01,2019-12-31,74.82531675830745,True
+6328,Milano v.Marche,Milano,MI,✅ Available,8383,2019-01-01,2019-12-31,117.13671716569249,True
+6330,Meda v. Gagarin,Meda,MB,✅ Available,7475,2019-01-04,2019-12-31,75.91919732441471,True
+6338,Motta Visconti v. De Gasperi,Motta Visconti,MI,✅ Available,8614,2019-01-01,2019-12-31,34.276329231483636,True
+6340,Milano Parco Lambro,Milano,MI,❌ No data,0,N/A,N/A,,False
+6342,Pero SS Sempione,Pero,MI,❌ No data,0,N/A,N/A,,False
+6344,Milano P.zza Abbiategrasso,Milano,MI,❌ No data,0,N/A,N/A,,False
+6346,Rho via Buon Gesù,Rho,MI,✅ Available,7706,2019-01-01,2019-12-31,80.0497534388788,True
+6348,Rivolta d'Adda v.Beccaria,Rivolta d'Adda,CR,❌ No data,0,N/A,N/A,,False
+6350,Robecchetto con Induno v. Pertini,Robecchetto con Induno,MI,❌ No data,0,N/A,N/A,,False
+6354,Milano v.Senato,Milano,MI,✅ Available,8422,2019-01-01,2019-12-31,81.00349085727855,True
+6356,Sesto San Giovanni v. Cesare da Sesto,Sesto San Giovanni,MI,✅ Available,8593,2019-01-01,2019-12-31,83.74351216106135,True
+6358,Settimo Milanese v. Della Libertà,Settimo Milanese,MI,❌ No data,0,N/A,N/A,,False
+6360,Trezzo sull'Adda v.Nenni,Trezzo sull'Adda,MI,❌ No data,0,N/A,N/A,,False
+6362,Tribiano,Tribiano,MI,❌ No data,0,N/A,N/A,,False
+6364,Turbigo,Turbigo,MI,✅ Available,8655,2019-01-01,2019-12-31,36.18248411322935,True
+6366,Milano Verziere,Milano,MI,✅ Available,8603,2019-01-01,2019-12-31,73.3333837033593,True
+6368,Villasanta v. A. Volta,Villasanta,MB,❌ No data,0,N/A,N/A,,False
+6370,Vimercate v. dell'Ospedale,Vimercate,MB,❌ No data,0,N/A,N/A,,False
+6372,Milano P.zza Zavattari,Milano,MI,❌ No data,0,N/A,N/A,,False
+6374,Bormio v.Monte Braulio,Bormio,SO,✅ Available,8595,2019-01-01,2019-12-31,20.486631762652706,True
+6376,Chiavenna v.Cerletti,Chiavenna,SO,❌ No data,0,N/A,N/A,,False
+6380,Morbegno v.Cortivacci,Morbegno,SO,✅ Available,8629,2019-01-01,2019-12-31,26.975176729632633,True
+6382,Sondrio v.Mazzini,Sondrio,SO,✅ Available,8496,2019-01-01,2019-12-31,45.6106049905838,True
+6384,Tirano Viale Italia,Tirano,SO,❌ No data,0,N/A,N/A,,False
+6386,Busto Arsizio  Accam,Busto Arsizio,VA,✅ Available,8611,2019-01-01,2019-12-31,57.811508535594,True
+6388,Busto Arsizio v.Magenta,Busto Arsizio,VA,❌ No data,0,N/A,N/A,,False
+6390,Gallarate  P.zza S.Lorenzo,Gallarate,VA,❌ No data,0,N/A,N/A,,False
+6392,Lonate Pozzolo v.Veneto,Lonate Pozzolo,VA,❌ No data,0,N/A,N/A,,False
+6394,Somma Lombardo v.Facchinetti,Somma Lombardo,VA,❌ No data,0,N/A,N/A,,False
+6396,Saronno v.Marconi,Saronno,VA,❌ No data,0,N/A,N/A,,False
+6398,Saronno v.Santuario,Saronno,VA,✅ Available,8732,2019-01-01,2019-12-31,50.21912505726065,True
+6400,Varese v.Copelli,Varese,VA,✅ Available,8713,2019-01-01,2019-12-31,62.5362332147366,True
+6402,Varese v.Vidoletti,Varese,VA,✅ Available,8727,2019-01-01,2019-12-31,33.26422596539476,True
+6404,Casalmaggiore v.Volta,Casalmaggiore,CR,❌ No data,0,N/A,N/A,,False
+6405,Casalmaggiore v.Volta,Casalmaggiore,CR,❌ No data,0,N/A,N/A,,False
+6408,Corte de' Cortesi con Cignone v. Villa Strada Forca,Corte de' Cortesi con Cignone,CR,✅ Available,8695,2019-01-01,2019-12-31,36.315353651523864,True
+6411,Cremona P.zza Cadorna,Cremona,CR,✅ Available,8556,2019-01-01,2019-12-31,0.3726390836839644,True
+6412,Cremona P.zza Cadorna,Cremona,CR,✅ Available,8722,2019-01-01,2019-12-31,51.2283421233662,True
+6414,Cremona p.zza Libertà,Cremona,CR,❌ No data,0,N/A,N/A,,False
+6415,Cremona p.zza Libertà,Cremona,CR,❌ No data,0,N/A,N/A,,False
+6418,Crema v.XI febbraio,Crema,CR,✅ Available,8620,2019-01-01,2019-12-31,0.4157888631090487,True
+6419,Crema v.XI febbraio,Crema,CR,✅ Available,8429,2019-01-01,2019-12-31,54.78413809467315,True
+6422,Crema v.Indipendenza,Crema,CR,❌ No data,0,N/A,N/A,,False
+6423,Crema v.Indipendenza,Crema,CR,❌ No data,0,N/A,N/A,,False
+6425,Piadena v. Cavour,Piadena,CR,❌ No data,0,N/A,N/A,,False
+6426,Piadena v. Cavour,Piadena,CR,❌ No data,0,N/A,N/A,,False
+6428,Soresina v. Landriani,Soresina,CR,✅ Available,8601,2019-01-01,2019-12-31,45.92849668643181,True
+6582,Como v.Cattaneo,Como,CO,✅ Available,8576,2019-01-01,2019-12-31,47.28523787313433,True
+6587,Lecco v. Amendola,Lecco,LC,✅ Available,8508,2019-01-01,2019-12-31,1.32177950164551,True
+6594,Spino d'Adda SP1,Spino d'Adda,CR,❌ No data,0,N/A,N/A,,False
+6604,Nembro v.Locatelli,Nembro,BG,❌ No data,0,N/A,N/A,,False
+6605,Ponte San Pietro v. Moiolo,Ponte San Pietro,BG,❌ No data,0,N/A,N/A,,False
+6606,Seriate v. Garibaldi,Seriate,BG,❌ No data,0,N/A,N/A,,False
+6607,Seriate v. Garibaldi,Seriate,BG,❌ No data,0,N/A,N/A,,False
+6608,Treviglio p.zza Insurrezione,Treviglio,BG,❌ No data,0,N/A,N/A,,False
+6609,Ciserano c.so Europa,Ciserano,BG,❌ No data,0,N/A,N/A,,False
+6610,Filago v.Fermi,Filago,BG,❌ No data,0,N/A,N/A,,False
+6611,Filago v.Don Milani,Filago,BG,❌ No data,0,N/A,N/A,,False
+6613,Bergamo v.Meucci,Bergamo,BG,❌ No data,0,N/A,N/A,,False
+6614,Bergamo v.Garibaldi,Bergamo,BG,❌ No data,0,N/A,N/A,,False
+6616,Costa Volpino v.Nazionale,Costa Volpino,BG,❌ No data,0,N/A,N/A,,False
+6617,Casnigo via Europa,Casnigo,BG,❌ No data,0,N/A,N/A,,False
+6618,Tavernola Bergamasca v.Riva di Sotto,Tavernola Bergamasca,BG,❌ No data,0,N/A,N/A,,False
+6619,Como v.Cattaneo,Como,CO,❌ No data,0,N/A,N/A,,False
+6620,Calolziocorte c.so Dante,Calolziocorte,LC,❌ No data,0,N/A,N/A,,False
+6622,Colico v.La Madoneta,Colico,LC,❌ No data,0,N/A,N/A,,False
+6623,Lecco v. Amendola,Lecco,LC,❌ No data,0,N/A,N/A,,False
+6625,Merate v. Madonna di Loreto,Merate,LC,❌ No data,0,N/A,N/A,,False
+6626,Nibionno v.della Chiesa,Nibionno,LC,❌ No data,0,N/A,N/A,,False
+6629,Lodi v.Vignati,Lodi,LO,❌ No data,0,N/A,N/A,,False
+6630,Melegnano v.Predabissi,Melegnano,MI,❌ No data,0,N/A,N/A,,False
+6631,Montanaso Lombardo SP 202,Montanaso Lombardo,LO,❌ No data,0,N/A,N/A,,False
+6632,Tavazzano con Villavesco v.Cascina Bagnolo,Tavazzano con Villavesco,LO,❌ No data,0,N/A,N/A,,False
+6633,Agrate Brianza v.Ferrario,Agrate Brianza,MB,❌ No data,0,N/A,N/A,,False
+6634,Castano Primo v. Olimpiadi,Castano Primo,MI,❌ No data,0,N/A,N/A,,False
+6635,Cassano d'Adda v.di Vona,Cassano d'Adda,MI,❌ No data,0,N/A,N/A,,False
+6636,Inzago v.le Gramsci,Inzago,MI,❌ No data,0,N/A,N/A,,False
+6637,Milano v.Juvara,Milano,MI,❌ No data,0,N/A,N/A,,False
+6638,Legnano v.Diaz,Legnano,MI,❌ No data,0,N/A,N/A,,False
+6639,Milano v.Liguria,Milano,MI,❌ No data,0,N/A,N/A,,False
+6640,Pioltello Limito,Pioltello,MI,❌ No data,0,N/A,N/A,,False
+6641,Milano v.Marche,Milano,MI,❌ No data,0,N/A,N/A,,False
+6642,Meda v. Gagarin,Meda,MB,❌ No data,0,N/A,N/A,,False
+6645,Pero SS Sempione,Pero,MI,❌ No data,0,N/A,N/A,,False
+6646,Rho via Buon Gesù,Rho,MI,❌ No data,0,N/A,N/A,,False
+6647,Sesto San Giovanni v. Cesare da Sesto,Sesto San Giovanni,MI,❌ No data,0,N/A,N/A,,False
+6648,Turbigo,Turbigo,MI,❌ No data,0,N/A,N/A,,False
+6649,Villasanta v. A. Volta,Villasanta,MB,❌ No data,0,N/A,N/A,,False
+6650,Vimercate v. dell'Ospedale,Vimercate,MB,❌ No data,0,N/A,N/A,,False
+6651,Milano P.zza Zavattari,Milano,MI,❌ No data,0,N/A,N/A,,False
+6652,Bormio v.Monte Braulio,Bormio,SO,❌ No data,0,N/A,N/A,,False
+6654,Sondrio v.Mazzini,Sondrio,SO,❌ No data,0,N/A,N/A,,False
+6655,Busto Arsizio v.Magenta,Busto Arsizio,VA,❌ No data,0,N/A,N/A,,False
+6656,Gallarate  P.zza S.Lorenzo,Gallarate,VA,❌ No data,0,N/A,N/A,,False
+6657,Varese v.Vidoletti,Varese,VA,❌ No data,0,N/A,N/A,,False
+6665,Cantù v.Meucci,Cantù,CO,✅ Available,8708,2019-01-01,2019-12-31,53.86414790996784,True
+6675,Chiavenna v.Cerletti,Chiavenna,SO,❌ No data,0,N/A,N/A,,False
+6685,Pavia v. Folperti,Pavia,PV,✅ Available,8552,2019-01-01,2019-12-31,28.599508886810106,True
+6686,Pavia v. Folperti,Pavia,PV,✅ Available,8495,2019-01-01,2019-12-31,3.416915832842849,True
+6689,Pavia v. Folperti,Pavia,PV,❌ No data,0,N/A,N/A,,False
+6690,Pavia v. Folperti,Pavia,PV,✅ Available,8549,2019-01-01,2019-12-31,51.54319803485788,True
+6691,Pavia v. Folperti,Pavia,PV,✅ Available,8480,2019-01-01,2019-12-31,49.452146226415095,True
+6693,Pavia v. Folperti,Pavia,PV,❌ No data,0,N/A,N/A,,False
+6701,Pavia p.zza Minerva,Pavia,PV,✅ Available,8492,2019-01-01,2019-12-31,34.841321243523325,True
+6702,Pavia p.zza Minerva,Pavia,PV,❌ No data,0,N/A,N/A,,False
+6705,Pavia p.zza Minerva,Pavia,PV,✅ Available,8495,2019-01-01,2019-12-31,0.6920070629782225,True
+6706,Pavia p.zza Minerva,Pavia,PV,✅ Available,8491,2019-01-01,2019-12-31,67.65539983511955,True
+6715,Vigevano v.Petrarca,Vigevano,PV,❌ No data,0,N/A,N/A,,False
+6719,Vigevano v.Petrarca,Vigevano,PV,❌ No data,0,N/A,N/A,,False
+6720,Vigevano v.Petrarca,Vigevano,PV,❌ No data,0,N/A,N/A,,False
+6722,Vigevano v.Petrarca,Vigevano,PV,❌ No data,0,N/A,N/A,,False
+6730,Voghera v.Repubblica,Voghera,PV,❌ No data,0,N/A,N/A,,False
+6731,Voghera v.Repubblica,Voghera,PV,❌ No data,0,N/A,N/A,,False
+6733,Voghera v.Repubblica,Voghera,PV,❌ No data,0,N/A,N/A,,False
+6734,Voghera v.Repubblica,Voghera,PV,❌ No data,0,N/A,N/A,,False
+6736,Voghera v.Repubblica,Voghera,PV,❌ No data,0,N/A,N/A,,False
+6744,Breno v.Don Putelli,Breno,BS,❌ No data,0,N/A,N/A,,False
+6745,Breno v.Don Putelli,Breno,BS,❌ No data,0,N/A,N/A,,False
+6748,Breno v.Don Putelli,Breno,BS,❌ No data,0,N/A,N/A,,False
+6761,Brescia v.Broletto,Brescia,BS,✅ Available,8466,2019-01-01,2019-12-31,31.833545948499882,True
+6762,Brescia v.Broletto,Brescia,BS,❌ No data,0,N/A,N/A,,False
+6764,Brescia v.Broletto,Brescia,BS,✅ Available,8354,2019-01-01,2019-12-31,0.38065597318649746,True
+6766,Brescia v.Broletto,Brescia,BS,✅ Available,8466,2019-01-01,2019-12-31,56.99622017481691,True
+6767,Brescia v.Broletto,Brescia,BS,❌ No data,0,N/A,N/A,,False
+6775,Brescia v.Triumplina,Brescia,BS,❌ No data,0,N/A,N/A,,False
+6777,Brescia v.Triumplina,Brescia,BS,❌ No data,0,N/A,N/A,,False
+6779,Brescia v.Triumplina,Brescia,BS,❌ No data,0,N/A,N/A,,False
+6781,Brescia v.Turati,Brescia,BS,✅ Available,8692,2019-01-01,2019-12-31,58.09578923147723,True
+6782,Brescia v.Turati,Brescia,BS,✅ Available,8607,2019-01-01,2019-12-31,0.805542000697107,True
+6784,Brescia v.Turati,Brescia,BS,✅ Available,8692,2019-01-01,2019-12-31,139.4256557754257,True
+6786,Brescia v.Ziziola,Brescia,BS,❌ No data,0,N/A,N/A,,False
+6787,Brescia v.Ziziola,Brescia,BS,❌ No data,0,N/A,N/A,,False
+6789,Brescia v.Ziziola,Brescia,BS,❌ No data,0,N/A,N/A,,False
+6790,Brescia v.Ziziola,Brescia,BS,❌ No data,0,N/A,N/A,,False
+6791,Brescia v.Ziziola,Brescia,BS,❌ No data,0,N/A,N/A,,False
+6793,Brescia v.Ziziola,Brescia,BS,❌ No data,0,N/A,N/A,,False
+6798,Sarezzo v.Minelli,Sarezzo,BS,✅ Available,8469,2019-01-01,2019-12-31,25.648990435706697,True
+6799,Sarezzo v.Minelli,Sarezzo,BS,❌ No data,0,N/A,N/A,,False
+6801,Sarezzo v.Minelli,Sarezzo,BS,✅ Available,8481,2019-01-01,2019-12-31,0.2357151279330268,True
+6803,Sarezzo v.Minelli,Sarezzo,BS,✅ Available,8469,2019-01-01,2019-12-31,43.49586728067067,True
+6804,Sarezzo v.Minelli,Sarezzo,BS,✅ Available,8333,2019-01-01,2019-12-31,47.7780031201248,True
+6807,Darfo Boario Terme v. De Amicis,Darfo Boario Terme,BS,❌ No data,0,N/A,N/A,,False
+6810,Darfo Boario Terme v. De Amicis,Darfo Boario Terme,BS,❌ No data,0,N/A,N/A,,False
+6813,Gambara v.Parma,Gambara,BS,✅ Available,8293,2019-01-01,2019-12-31,24.673025443144823,True
+6814,Gambara v.Parma,Gambara,BS,❌ No data,0,N/A,N/A,,False
+6817,Gambara v.Parma,Gambara,BS,✅ Available,8293,2019-01-01,2019-12-31,37.12142771011697,True
+6818,Gambara v.Parma,Gambara,BS,✅ Available,8077,2019-01-03,2019-12-31,44.685378234493,True
+6820,Gambara v.Parma,Gambara,BS,❌ No data,0,N/A,N/A,,False
+6826,Lonato del Garda v.del Marchesino,Lonato del Garda,BS,✅ Available,8330,2019-01-01,2019-12-31,18.020228091236493,True
+6827,Lonato del Garda v.del Marchesino,Lonato del Garda,BS,❌ No data,0,N/A,N/A,,False
+6831,Lonato del Garda v.del Marchesino,Lonato del Garda,BS,✅ Available,8330,2019-01-01,2019-12-31,25.966362545018008,True
+6832,Lonato del Garda v.del Marchesino,Lonato del Garda,BS,✅ Available,8572,2019-01-01,2019-12-31,58.90153989734018,True
+6837,Manerbio v.Solferino,Manerbio,BS,❌ No data,0,N/A,N/A,,False
+6838,Manerbio v.Solferino,Manerbio,BS,❌ No data,0,N/A,N/A,,False
+6840,Manerbio v.Solferino,Manerbio,BS,❌ No data,0,N/A,N/A,,False
+6841,Odolo v.Praes,Odolo,BS,✅ Available,8611,2019-01-01,2019-12-31,21.693996051561957,True
+6842,Odolo v.Praes,Odolo,BS,❌ No data,0,N/A,N/A,,False
+6845,Odolo v.Praes,Odolo,BS,✅ Available,8611,2019-01-01,2019-12-31,33.961758216235054,True
+6852,Ospitaletto v. XXV aprile,Ospitaletto,BS,❌ No data,0,N/A,N/A,,False
+6853,Ospitaletto v. XXV aprile,Ospitaletto,BS,❌ No data,0,N/A,N/A,,False
+6856,Ospitaletto v. XXV aprile,Ospitaletto,BS,❌ No data,0,N/A,N/A,,False
+6857,Ospitaletto v. XXV aprile,Ospitaletto,BS,❌ No data,0,N/A,N/A,,False
+6859,Rezzato v.De Gasperi,Rezzato,BS,✅ Available,8382,2019-01-01,2019-12-31,27.09747077069912,True
+6860,Rezzato v.De Gasperi,Rezzato,BS,❌ No data,0,N/A,N/A,,False
+6862,Rezzato v.De Gasperi,Rezzato,BS,✅ Available,8669,2019-01-01,2019-12-31,0.450340292998039,True
+6864,Rezzato v.De Gasperi,Rezzato,BS,✅ Available,8382,2019-01-01,2019-12-31,45.2105583392985,True
+6867,Vobarno v.Sottostrada,Vobarno,BS,❌ No data,0,N/A,N/A,,False
+6869,Pavia v. Folperti,Pavia,PV,✅ Available,6465,2019-01-01,2019-12-31,0.5221345707656612,True
+6870,Mantova v.Ariosto,Mantova,MN,✅ Available,8163,2019-01-01,2019-12-31,0.8753644493446038,True
+6871,Mantova v.Ariosto,Mantova,MN,✅ Available,8381,2019-01-01,2019-12-31,31.638038420236253,True
+6872,Mantova v.Ariosto,Mantova,MN,✅ Available,8421,2019-01-01,2019-12-31,1.7778173613585084,True
+6877,Mantova p.zza Gramsci,Mantova,MN,✅ Available,8482,2019-01-01,2019-12-31,24.036265031832116,True
+6879,Mantova p.zza Gramsci,Mantova,MN,✅ Available,8706,2019-01-01,2019-12-31,0.46781529979324604,True
+6880,Viadana v. Cavalli,Viadana,MN,✅ Available,8725,2019-01-01,2019-12-31,25.137283667621777,True
+6881,Viadana v. Cavalli,Viadana,MN,❌ No data,0,N/A,N/A,,False
+6883,Viadana v. Cavalli,Viadana,MN,❌ No data,0,N/A,N/A,,False
+6884,Viadana v. Cavalli,Viadana,MN,✅ Available,8625,2019-01-01,2019-12-31,48.78982028985507,True
+6885,Porto Mantovano v. Gianni Rodari,Porto Mantovano,MN,❌ No data,0,N/A,N/A,,False
+6886,Porto Mantovano v. Gianni Rodari,Porto Mantovano,MN,❌ No data,0,N/A,N/A,,False
+6888,Porto Mantovano v. Gianni Rodari,Porto Mantovano,MN,❌ No data,0,N/A,N/A,,False
+6889,Marmirolo Bosco Fontana,Marmirolo,MN,❌ No data,0,N/A,N/A,,False
+6891,Marmirolo Bosco Fontana,Marmirolo,MN,❌ No data,0,N/A,N/A,,False
+6898,Mantova Lunetta2,Mantova,MN,❌ No data,0,N/A,N/A,,False
+6899,Mantova Lunetta2,Mantova,MN,❌ No data,0,N/A,N/A,,False
+6901,Mantova Lunetta2,Mantova,MN,❌ No data,0,N/A,N/A,,False
+6902,Montanaso Lombardo SP 202,Montanaso Lombardo,LO,❌ No data,0,N/A,N/A,,False
+6904,Osio Sotto v.per Levate,Osio Sotto,BG,✅ Available,8684,2019-01-01,2019-12-31,52.01037540304007,True
+6905,Milano v.Juvara,Milano,MI,❌ No data,0,N/A,N/A,,False
+6907,Trezzo sull'Adda v.Nenni,Trezzo sull'Adda,MI,❌ No data,0,N/A,N/A,,False
+6908,Pioltello Limito,Pioltello,MI,✅ Available,337,2019-01-02,2019-12-31,31.19287833827893,True
+6909,Arese v. Matteotti,Arese,MI,❌ No data,0,N/A,N/A,,False
+6910,Meda v. Gagarin,Meda,MB,✅ Available,331,2019-01-02,2019-12-31,30.214501510574017,True
+6911,Vimercate v. dell'Ospedale,Vimercate,MB,❌ No data,0,N/A,N/A,,False
+6912,Magenta v. F. Turati,Magenta,MI,✅ Available,357,2019-01-02,2019-12-31,30.238095238095237,True
+6915,Saronno v.Santuario,Saronno,VA,✅ Available,364,2019-01-02,2019-12-31,26.703296703296704,True
+6917,Busto Arsizio  Accam,Busto Arsizio,VA,✅ Available,354,2019-01-02,2019-12-31,22.562146892655367,True
+6918,Varese v.Copelli,Varese,VA,✅ Available,355,2019-01-02,2019-12-31,23.529577464788733,True
+6919,Como v.Cattaneo,Como,CO,✅ Available,342,2019-01-02,2019-12-31,25.842105263157894,True
+6921,Erba v. Battisti,Erba,CO,✅ Available,361,2019-01-02,2019-12-31,20.570637119113574,True
+6922,Olgiate Comasco v.Roma,Olgiate Comasco,CO,❌ No data,0,N/A,N/A,,False
+6924,Tirano Viale Italia,Tirano,SO,❌ No data,0,N/A,N/A,,False
+6925,Bormio v.Monte Braulio,Bormio,SO,✅ Available,361,2019-01-02,2019-12-31,11.515235457063712,True
+6926,Morbegno v.Cortivacci,Morbegno,SO,✅ Available,357,2019-01-02,2019-12-31,18.50700280112045,True
+6927,Lecco v. Amendola,Lecco,LC,✅ Available,357,2019-01-02,2019-12-31,21.711484593837536,True
+6929,Merate v. Madonna di Loreto,Merate,LC,✅ Available,351,2019-01-02,2019-12-31,29.88034188034188,True
+6931,Bergamo v.Meucci,Bergamo,BG,✅ Available,363,2019-01-02,2019-12-31,25.90633608815427,True
+6934,Seriate v. Garibaldi,Seriate,BG,❌ No data,0,N/A,N/A,,False
+6935,Treviglio p.zza Insurrezione,Treviglio,BG,✅ Available,359,2019-01-02,2019-12-31,30.16434540389972,True
+6936,Osio Sotto v.per Levate,Osio Sotto,BG,✅ Available,358,2019-01-02,2019-12-31,26.480446927374302,True
+6937,Lallio v. Sforzatica,Lallio,BG,❌ No data,0,N/A,N/A,,False
+6939,Lodi v.Vignati,Lodi,LO,✅ Available,345,2019-01-02,2019-12-31,28.92463768115942,True
+6940,Montanaso Lombardo SP 202,Montanaso Lombardo,LO,❌ No data,0,N/A,N/A,,False
+6942,Cremona p.zza Libertà,Cremona,CR,❌ No data,0,N/A,N/A,,False
+6943,Crema v.Indipendenza,Crema,CR,❌ No data,0,N/A,N/A,,False
+6944,Pizzighettone v.Formigara,Pizzighettone,CR,❌ No data,0,N/A,N/A,,False
+6945,Soresina v. Landriani,Soresina,CR,✅ Available,340,2019-01-02,2019-12-31,36.411764705882355,True
+6947,Pavia p.zza Minerva,Pavia,PV,✅ Available,357,2019-01-02,2019-12-31,35.46498599439776,True
+6948,Vigevano v.Petrarca,Vigevano,PV,❌ No data,0,N/A,N/A,,False
+6951,Brescia v.Broletto,Brescia,BS,✅ Available,339,2019-01-02,2019-12-31,29.058997050147493,True
+6952,Sarezzo v.Minelli,Sarezzo,BS,✅ Available,345,2019-01-02,2019-12-31,23.889855072463767,True
+6953,Odolo v.Praes,Odolo,BS,✅ Available,343,2019-01-02,2019-12-31,31.221574344023324,True
+6954,Rezzato v.De Gasperi,Rezzato,BS,✅ Available,335,2019-01-02,2019-12-31,37.25373134328358,True
+6955,Mantova v.Ariosto,Mantova,MN,✅ Available,353,2019-01-02,2019-12-31,30.64872521246459,True
+6956,Milano Verziere,Milano,MI,✅ Available,334,2019-01-02,2019-12-31,29.281437125748504,True
+6958,Sondrio v.Mazzini,Sondrio,SO,✅ Available,340,2019-01-02,2019-12-31,19.61470588235294,True
+6959,Cantù v.Meucci,Cantù,CO,✅ Available,355,2019-01-02,2019-12-31,22.28732394366197,True
+6962,Filago v.Don Milani,Filago,BG,✅ Available,299,2019-01-02,2019-12-29,30.48160535117057,True
+6966,Brescia Villaggio Sereno,Brescia,BS,✅ Available,7025,2019-01-01,2019-12-31,2.921779359430605,True
+6967,Brescia Villaggio Sereno,Brescia,BS,❌ No data,0,N/A,N/A,,False
+9739,Codogno v.Trento,Codogno,LO,✅ Available,346,2019-01-02,2019-12-31,35.83236994219653,True
+9740,Tavazzano con Villavesco v.Cascina Bagnolo,Tavazzano con Villavesco,LO,✅ Available,360,2019-01-04,2019-12-31,29.26388888888889,True
+9772,Lodi v.Vignati,Lodi,LO,✅ Available,8470,2019-01-01,2019-12-31,0.5221487603305786,True
+9797,Mantova S.Agnese,Mantova,MN,✅ Available,8018,2019-01-01,2019-12-31,0.7867298578199052,True
+9798,Mantova S.Agnese,Mantova,MN,✅ Available,8416,2019-01-01,2019-12-31,0.5061430608365018,True
+9800,Mantova Tridolino,Mantova,MN,❌ No data,0,N/A,N/A,,False
+9802,Mantova S.Agnese,Mantova,MN,✅ Available,8436,2019-01-01,2019-12-31,24.32872214319583,True
+9804,Mantova S.Agnese,Mantova,MN,✅ Available,8436,2019-01-01,2019-12-31,38.13558558558559,True
+9805,Mantova Tridolino,Mantova,MN,❌ No data,0,N/A,N/A,,False
+9807,Mantova Tridolino,Mantova,MN,❌ No data,0,N/A,N/A,,False
+9831,Mantova S.Agnese,Mantova,MN,✅ Available,348,2019-01-02,2019-12-31,30.522988505747126,True
+9832,Mantova Tridolino,Mantova,MN,❌ No data,0,N/A,N/A,,False
+9833,Mantova p.zza Gramsci,Mantova,MN,✅ Available,8437,2019-01-01,2019-12-31,0.4606495199715538,True
+9835,Mantova p.zza Gramsci,Mantova,MN,✅ Available,364,2019-01-02,2019-12-31,30.736263736263737,True
+9852,Cornale v.Libertà,Cornale,PV,✅ Available,8332,2019-01-01,2019-12-31,18.33006481036966,True
+9854,Cornale v.Libertà,Cornale,PV,✅ Available,7673,2019-01-01,2019-12-31,0.4369477388244493,True
+9855,Cornale v.Libertà,Cornale,PV,✅ Available,8332,2019-01-01,2019-12-31,26.512493999039847,True
+9856,Cornale v.Libertà,Cornale,PV,✅ Available,8461,2019-01-01,2019-12-31,48.040538943387304,True
+9857,Voghera v.Pozzoni,Voghera,PV,✅ Available,8617,2019-01-01,2019-12-31,22.214807937797378,True
+9859,Voghera v.Pozzoni,Voghera,PV,✅ Available,8727,2019-01-01,2019-12-31,0.548504640770024,True
+9860,Voghera v.Pozzoni,Voghera,PV,✅ Available,8616,2019-01-01,2019-12-31,33.554642525533886,True
+9861,Voghera v.Pozzoni,Voghera,PV,✅ Available,8733,2019-01-01,2019-12-31,49.8543226840719,True
+9872,Voghera v.Pozzoni,Voghera,PV,✅ Available,348,2019-01-02,2019-12-31,26.46264367816092,True
+9873,Saronno v.Santuario,Saronno,VA,✅ Available,364,2019-01-02,2019-12-31,16.607142857142858,True
+9874,Milano v.Juvara,Milano,MI,❌ No data,0,N/A,N/A,,False
+9875,Monza v.Machiavelli,Monza,MB,✅ Available,6929,2019-01-01,2019-12-31,87.7294847741377,True
+9877,Monza v.Machiavelli,Monza,MB,✅ Available,6930,2019-01-01,2019-12-31,45.7002886002886,True
+9880,Monza v.Machiavelli,Monza,MB,✅ Available,8352,2019-01-01,2019-12-31,0.56147030651341,True
+9882,Monza v.Machiavelli,Monza,MB,✅ Available,8598,2019-01-01,2019-12-31,50.786787625029085,True
+9888,Bergamo v.Meucci,Bergamo,BG,✅ Available,8592,2019-01-01,2019-12-31,0.3410730912476723,True
+9890,Monza v.Machiavelli,Monza,MB,✅ Available,344,2019-01-02,2019-12-31,29.27906976744186,True
+9891,Varese v.Vidoletti,Varese,VA,❌ No data,0,N/A,N/A,,False
+9896,Casirate d'Adda v. Cimitero,Casirate d'Adda,BG,✅ Available,8281,2019-01-01,2019-12-31,41.40783721772733,True
+9897,Casirate d'Adda v. Cimitero,Casirate d'Adda,BG,✅ Available,8283,2019-01-01,2019-12-31,25.874453700350116,True
+9899,Casirate d'Adda v. Cimitero,Casirate d'Adda,BG,✅ Available,8325,2019-01-01,2019-12-31,45.40228228228227,True
+9900,Cassano d'Adda v.di Vona,Cassano d'Adda,MI,❌ No data,0,N/A,N/A,,False
+9915,Seriate v. Garibaldi,Seriate,BG,❌ No data,0,N/A,N/A,,False
+9916,Mantova Lunetta2,Mantova,MN,❌ No data,0,N/A,N/A,,False
+9917,Mantova v.Ariosto,Mantova,MN,✅ Available,8381,2019-01-01,2019-12-31,54.001264765541094,True
+9918,Mantova p.zza Gramsci,Mantova,MN,✅ Available,8482,2019-01-01,2019-12-31,44.32802405093139,True
+9919,Porto Mantovano v. Gianni Rodari,Porto Mantovano,MN,❌ No data,0,N/A,N/A,,False
+9920,Viadana v. Cavalli,Viadana,MN,✅ Available,8725,2019-01-01,2019-12-31,41.80011461318052,True
+9921,Marmirolo Bosco Fontana,Marmirolo,MN,❌ No data,0,N/A,N/A,,False
+9923,Cremona Via Fatebenefratelli,Cremona,CR,✅ Available,8609,2019-01-01,2019-12-31,1.5121268440004645,True
+9924,Cremona Via Fatebenefratelli,Cremona,CR,✅ Available,8268,2019-01-01,2019-12-31,0.33807450411224,True
+9925,Cremona Via Fatebenefratelli,Cremona,CR,✅ Available,8657,2019-01-01,2019-12-31,41.96286242347234,True
+9927,Cremona Via Fatebenefratelli,Cremona,CR,✅ Available,340,2019-01-02,2019-12-31,35.06470588235294,True
+9928,Cremona Via Fatebenefratelli,Cremona,CR,✅ Available,8673,2019-01-01,2019-12-31,32.56964141588839,True
+9930,Cremona Via Fatebenefratelli,Cremona,CR,✅ Available,8672,2019-01-01,2019-12-31,62.51254612546125,True
+9961,Brescia Villaggio Sereno,Brescia,BS,✅ Available,345,2019-01-02,2019-12-31,33.10144927536232,True
+9963,Cassano d'Adda v.di Vona,Cassano d'Adda,MI,❌ No data,0,N/A,N/A,,False
+9965,Casirate d'Adda v. Cimitero,Casirate d'Adda,BG,✅ Available,327,2019-01-08,2019-12-31,29.76452599388379,True
+9967,Rivolta d'Adda v.Beccaria,Rivolta d'Adda,CR,❌ No data,0,N/A,N/A,,False
+9968,Valmadrera v.Pozzi,Valmadrera,LC,✅ Available,8656,2019-01-01,2019-12-31,29.799919131238447,True
+9969,Valmadrera v.Pozzi,Valmadrera,LC,✅ Available,8659,2019-01-01,2019-12-31,20.447280286407207,True
+9971,Valmadrera v.Pozzi,Valmadrera,LC,✅ Available,8644,2019-01-01,2019-12-31,0.33919481721425265,True
+9972,Valmadrera v.Pozzi,Valmadrera,LC,✅ Available,8715,2019-01-01,2019-12-31,63.01432013769364,True
+9976,Valmadrera v.Pozzi,Valmadrera,LC,✅ Available,362,2019-01-02,2019-12-31,20.204419889502763,True
+9978,Casirate d'Adda v. Cimitero,Casirate d'Adda,BG,✅ Available,334,2019-01-02,2019-12-31,23.694610778443113,True
+9983,Cornale v.Libertà,Cornale,PV,✅ Available,325,2019-01-02,2019-12-31,20.846153846153847,True
+9984,Brescia Villaggio Sereno,Brescia,BS,✅ Available,344,2019-01-02,2019-12-31,24.517441860465116,True
+9985,Lodi v.Vignati,Lodi,LO,✅ Available,360,2019-01-02,2019-12-31,15.238888888888889,True
+9991,Moggio Loc. Penscei,Moggio,LC,✅ Available,8727,2019-01-01,2019-12-31,95.7032198922883,True
+9993,Ferrera Erbognone ENI,Ferrera Erbognone,PV,✅ Available,8130,2019-01-01,2019-12-31,17.98610086100861,True
+9995,Ferrera Erbognone ENI,Ferrera Erbognone,PV,✅ Available,8297,2019-01-01,2019-12-31,0.39133421718693506,True
+9996,Ferrera Erbognone ENI,Ferrera Erbognone,PV,✅ Available,8130,2019-01-01,2019-12-31,25.784046740467403,True
+9997,Ferrera Erbognone ENI,Ferrera Erbognone,PV,✅ Available,8094,2019-01-01,2019-12-31,48.36103286384976,True
+9998,Cassano d'Adda 2-v.Milano,Cassano d'Adda,MI,✅ Available,8668,2019-01-01,2019-12-31,0.7035071527457315,True
+9999,Cassano d'Adda 2-v.Milano,Cassano d'Adda,MI,✅ Available,8678,2019-01-01,2019-12-31,32.026319428439734,True
+10001,Cassano d'Adda 2-v.Milano,Cassano d'Adda,MI,✅ Available,8678,2019-01-01,2019-12-31,54.191449642774835,True
+10002,Cassano d'Adda 2-v.Milano,Cassano d'Adda,MI,✅ Available,8379,2019-01-01,2019-12-31,0.7568802959780403,True
+10004,Truccazzano via Fornasino,Truccazzano,MI,❌ No data,0,N/A,N/A,,False
+10005,Truccazzano via Fornasino,Truccazzano,MI,❌ No data,0,N/A,N/A,,False
+10006,Truccazzano via Fornasino,Truccazzano,MI,❌ No data,0,N/A,N/A,,False
+10007,Truccazzano via Fornasino,Truccazzano,MI,❌ No data,0,N/A,N/A,,False
+10013,Merate v. Madonna di Loreto,Merate,LC,✅ Available,351,2019-01-02,2019-12-31,19.128205128205128,True
+10016,Mantova p.zza Gramsci,Mantova,MN,✅ Available,8520,2019-01-01,2019-12-31,2.7998122065727697,True
+10017,Calusco d'Adda v. Caduti sul Lavoro,Calusco d'Adda,BG,✅ Available,8658,2019-01-01,2019-12-31,31.842319242319242,True
+10018,Calusco d'Adda v. Caduti sul Lavoro,Calusco d'Adda,BG,✅ Available,8663,2019-01-01,2019-12-31,0.7766939859171188,True
+10019,Calusco d'Adda v. Caduti sul Lavoro,Calusco d'Adda,BG,✅ Available,8659,2019-01-01,2019-12-31,21.604965931400855,True
+10020,Calusco d'Adda v. Caduti sul Lavoro,Calusco d'Adda,BG,✅ Available,8504,2019-01-01,2019-12-31,1.3425917215428034,True
+10023,Calusco d'Adda v. Caduti sul Lavoro,Calusco d'Adda,BG,✅ Available,8629,2019-01-03,2019-12-31,0.39855139645381854,True
+10025,Calusco d'Adda v. Caduti sul Lavoro,Calusco d'Adda,BG,✅ Available,8609,2019-01-02,2019-12-31,56.033035195725404,True
+10027,Calusco d'Adda v. Caduti sul Lavoro,Calusco d'Adda,BG,✅ Available,359,2019-01-02,2019-12-31,23.685236768802227,True
+10028,Calusco d'Adda v. Caduti sul Lavoro,Calusco d'Adda,BG,✅ Available,350,2019-01-02,2019-12-31,17.945714285714285,True
+10029,Calusco d'Adda v. Caduti sul Lavoro,Calusco d'Adda,BG,❌ No data,0,N/A,N/A,,False
+10035,Cornale v.Libertà,Cornale,PV,✅ Available,7403,2019-01-01,2019-12-31,0.4516142104552208,True
+10036,Voghera v.Pozzoni,Voghera,PV,✅ Available,8151,2019-01-01,2019-12-31,0.42797202797202805,True
+10037,Ferno v.Di Dio,Ferno,VA,✅ Available,8672,2019-01-01,2019-12-31,39.73068496309964,True
+10038,Ferno v.Di Dio,Ferno,VA,✅ Available,8675,2019-01-01,2019-12-31,23.370685878962533,True
+10039,Ferno v.Di Dio,Ferno,VA,✅ Available,8559,2019-01-01,2019-12-31,0.4203411613506251,True
+10041,Ferno v.Di Dio,Ferno,VA,✅ Available,8686,2019-01-01,2019-12-31,49.44328804973521,True
+10043,Ferno v.Di Dio,Ferno,VA,✅ Available,364,2019-01-02,2019-12-31,23.994505494505493,True
+10048,Scaldasole v. XI Febbraio,Scaldasole,PV,❌ No data,0,N/A,N/A,,False
+10049,Galliavola v. Marconi,Galliavola,PV,❌ No data,0,N/A,N/A,,False
+10054,Ferrera Erbognone AGIP v. Indipendenza,Ferrera Erbognone,PV,❌ No data,0,N/A,N/A,,False
+10070,Sannazzaro de' Burgondi v.Traversi,Sannazzaro de' Burgondi,PV,✅ Available,8433,2019-01-01,2019-12-31,4.653610814656706,True
+10072,Sannazzaro de' Burgondi v.Traversi,Sannazzaro de' Burgondi,PV,✅ Available,345,2019-01-02,2019-12-31,28.017391304347825,True
+10073,Salionze v. Campagna Rossa,Salionze,VR,❌ No data,0,N/A,N/A,,False
+10074,Salionze v. Campagna Rossa,Salionze,VR,❌ No data,0,N/A,N/A,,False
+10077,Salionze v. Campagna Rossa,Salionze,VR,❌ No data,0,N/A,N/A,,False
+10078,Ponti sul Mincio v.San Martino,Ponti sul Mincio,MN,✅ Available,7962,2019-01-01,2019-12-31,36.472720422004514,True
+10079,Ponti sul Mincio v.San Martino,Ponti sul Mincio,MN,✅ Available,7962,2019-01-01,2019-12-31,20.790416980658126,True
+10081,Ponti sul Mincio v.San Martino,Ponti sul Mincio,MN,✅ Available,8601,2019-01-01,2019-12-31,50.172677595628414,True
+10083,Ponti sul Mincio v.San Martino,Ponti sul Mincio,MN,✅ Available,358,2019-01-02,2019-12-31,26.963687150837988,True
+10085,Ponti sul Mincio v.San Martino,Ponti sul Mincio,MN,✅ Available,349,2019-01-02,2019-12-31,20.63323782234957,True
+10086,Monzambano campo sportivo,Monzambano,MN,❌ No data,0,N/A,N/A,,False
+10087,Monzambano campo sportivo,Monzambano,MN,❌ No data,0,N/A,N/A,,False
+10088,Monzambano campo sportivo,Monzambano,MN,❌ No data,0,N/A,N/A,,False
+10089,Monzambano campo sportivo,Monzambano,MN,❌ No data,0,N/A,N/A,,False
+10095,Borgofranco sul Po loc. Bonizzo,Borgofranco sul Po,MN,✅ Available,8230,2019-01-01,2019-12-31,21.82127582017011,True
+10096,Borgofranco sul Po loc. Bonizzo,Borgofranco sul Po,MN,❌ No data,0,N/A,N/A,,False
+10097,Borgofranco sul Po loc. Bonizzo,Borgofranco sul Po,MN,✅ Available,8230,2019-01-01,2019-12-31,14.104167679222359,True
+10098,Borgofranco sul Po loc. Bonizzo,Borgofranco sul Po,MN,❌ No data,0,N/A,N/A,,False
+10103,Borgofranco sul Po loc. Bonizzo,Borgofranco sul Po,MN,✅ Available,339,2019-01-02,2019-12-30,30.392330383480825,True
+10106,Ceneselli v. Moro,Ceneselli,RO,❌ No data,0,N/A,N/A,,False
+10108,Ceneselli v. Moro,Ceneselli,RO,❌ No data,0,N/A,N/A,,False
+10109,Ceneselli v. Moro,Ceneselli,RO,❌ No data,0,N/A,N/A,,False
+10112,Ceneselli v. Moro,Ceneselli,RO,❌ No data,0,N/A,N/A,,False
+10114,Ceneselli v. Moro,Ceneselli,RO,❌ No data,0,N/A,N/A,,False
+10117,Magnacavallo campo sportivo,Magnacavallo,MN,❌ No data,0,N/A,N/A,,False
+10119,Magnacavallo campo sportivo,Magnacavallo,MN,❌ No data,0,N/A,N/A,,False
+10123,Magnacavallo campo sportivo,Magnacavallo,MN,❌ No data,0,N/A,N/A,,False
+10129,Melara v. dell'Artigianato,Melara,RO,❌ No data,0,N/A,N/A,,False
+10131,Melara v. dell'Artigianato,Melara,RO,❌ No data,0,N/A,N/A,,False
+10133,Melara v. dell'Artigianato,Melara,RO,❌ No data,0,N/A,N/A,,False
+10141,Ostiglia v.Colombo,Ostiglia,MN,❌ No data,0,N/A,N/A,,False
+10143,Ostiglia v.Colombo,Ostiglia,MN,❌ No data,0,N/A,N/A,,False
+10145,Ostiglia v.Colombo,Ostiglia,MN,❌ No data,0,N/A,N/A,,False
+10149,Ostiglia v.Colombo,Ostiglia,MN,❌ No data,0,N/A,N/A,,False
+10153,Pieve di Coriano v. Bugatte,Pieve di Coriano,MN,❌ No data,0,N/A,N/A,,False
+10155,Pieve di Coriano v. Bugatte,Pieve di Coriano,MN,❌ No data,0,N/A,N/A,,False
+10159,Pieve di Coriano v. Bugatte,Pieve di Coriano,MN,❌ No data,0,N/A,N/A,,False
+10165,Schivenoglia v. Malpasso,Schivenoglia,MN,✅ Available,8555,2019-01-01,2019-12-31,26.46820572764465,True
+10166,Schivenoglia v. Malpasso,Schivenoglia,MN,✅ Available,8294,2019-01-01,2019-12-31,0.41016397395707743,True
+10167,Schivenoglia v. Malpasso,Schivenoglia,MN,✅ Available,8555,2019-01-01,2019-12-31,18.040444184687317,True
+10168,Schivenoglia v. Malpasso,Schivenoglia,MN,✅ Available,8346,2019-01-01,2019-12-31,2.854481188593338,True
+10169,Schivenoglia v. Malpasso,Schivenoglia,MN,✅ Available,8595,2019-01-01,2019-12-31,0.48077952297847587,True
+10171,Schivenoglia v. Malpasso,Schivenoglia,MN,✅ Available,8528,2019-01-01,2019-12-31,51.37939727954972,True
+10173,Schivenoglia v. Malpasso,Schivenoglia,MN,✅ Available,339,2019-01-02,2019-12-31,30.345132743362832,True
+10176,Schivenoglia v. Malpasso,Schivenoglia,MN,✅ Available,337,2019-01-02,2019-12-31,20.45994065281899,True
+10177,Sermide e Felonica v. Dalla Chiesa,Sermide e Felonica,MN,❌ No data,0,N/A,N/A,,False
+10179,Sermide e Felonica v. Dalla Chiesa,Sermide e Felonica,MN,❌ No data,0,N/A,N/A,,False
+10185,Sermide e Felonica v. Dalla Chiesa,Sermide e Felonica,MN,❌ No data,0,N/A,N/A,,False
+10197,Borgofranco sul Po loc. Bonizzo,Borgofranco sul Po,MN,✅ Available,335,2019-01-02,2019-12-31,20.13134328358209,True
+10258,Corte de' Cortesi con Cignone v. Villa Strada Forca,Corte de' Cortesi con Cignone,CR,✅ Available,8698,2019-01-01,2019-12-31,44.205564497585655,True
+10259,Sondrio v.Mazzini,Sondrio,SO,✅ Available,8568,2019-01-01,2019-12-31,0.6595121381886088,True
+10269,Milano v.Juvara,Milano,MI,❌ No data,0,N/A,N/A,,False
+10270,Darfo Boario Terme v. De Amicis,Darfo Boario Terme,BS,✅ Available,8128,2019-01-01,2019-12-31,43.91947588582677,True
+10273,Milano Pascal Città Studi,Milano,MI,✅ Available,340,2019-01-02,2019-12-31,29.24411764705882,True
+10278,Milano Pascal Città Studi,Milano,MI,✅ Available,7845,2019-01-01,2019-12-31,75.92085404716379,True
+10279,Milano Pascal Città Studi,Milano,MI,✅ Available,7847,2019-01-01,2019-12-31,37.01098508984325,True
+10280,Milano Pascal Città Studi,Milano,MI,✅ Available,8560,2019-01-01,2019-12-31,2.118492990654206,True
+10282,Milano Pascal Città Studi,Milano,MI,✅ Available,8450,2019-01-01,2019-12-31,46.158426035502956,True
+10283,Milano Pascal Città Studi,Milano,MI,✅ Available,340,2019-01-02,2019-12-31,20.779411764705884,True
+10285,Lecco v.Sora,Lecco,LC,✅ Available,8412,2019-01-01,2019-12-31,31.191096053257258,True
+10286,Lecco v.Sora,Lecco,LC,✅ Available,8412,2019-01-01,2019-12-31,21.494281978126484,True
+10288,Lecco v.Sora,Lecco,LC,✅ Available,8439,2019-01-01,2019-12-31,58.555053916340796,True
+10290,Lecco v.Sora,Lecco,LC,✅ Available,355,2019-01-02,2019-12-31,17.31549295774648,True
+10291,Moggio Loc. Penscei,Moggio,LC,✅ Available,8132,2019-01-01,2019-12-31,3.7647442203639945,True
+10299,Brescia v.Ziziola,Brescia,BS,❌ No data,0,N/A,N/A,,False
+10300,Ospitaletto v. XXV aprile,Ospitaletto,BS,❌ No data,0,N/A,N/A,,False
+10301,Lecco v. Amendola,Lecco,LC,✅ Available,8648,2019-01-01,2019-12-31,0.7342969472710454,True
+10320,Milano v.Senato,Milano,MI,✅ Available,358,2019-01-02,2019-12-31,33.78212290502793,True
+10321,Mortara v. Trento,Mortara,PV,❌ No data,0,N/A,N/A,,False
+10323,Mortara v. Trento,Mortara,PV,❌ No data,0,N/A,N/A,,False
+10324,Mortara v. Trento,Mortara,PV,❌ No data,0,N/A,N/A,,False
+10326,Parona v. della Miseria,Parona,PV,✅ Available,8637,2019-01-01,2019-12-31,18.852761375477595,True
+10327,Parona v. della Miseria,Parona,PV,✅ Available,8591,2019-01-01,2019-12-31,3.787160982423466,True
+10329,Parona v. della Miseria,Parona,PV,✅ Available,8635,2019-01-01,2019-12-31,29.60804863925883,True
+10330,Parona v. della Miseria,Parona,PV,❌ No data,0,N/A,N/A,,False
+10331,Vigevano v.Valletta,Vigevano,PV,✅ Available,8433,2019-01-01,2019-12-31,20.766548084904542,True
+10333,Vigevano v.Valletta,Vigevano,PV,✅ Available,8434,2019-01-01,2019-12-31,36.388380365188524,True
+10335,Vigevano v.Valletta,Vigevano,PV,✅ Available,357,2019-01-02,2019-12-31,29.162464985994397,True
+10336,Vigevano v.Valletta,Vigevano,PV,❌ No data,0,N/A,N/A,,False
+10339,Crema v.XI febbraio,Crema,CR,✅ Available,359,2019-01-02,2019-12-31,33.476323119777156,True
+10343,Parona v. della Miseria,Parona,PV,✅ Available,325,2019-01-02,2019-12-31,28.372307692307693,True
+10346,Mortara v. Trento,Mortara,PV,❌ No data,0,N/A,N/A,,False
+10347,Mantova S.Agnese,Mantova,MN,✅ Available,344,2019-01-02,2019-12-31,20.401162790697676,True
+10349,Castano Primo v. Olimpiadi,Castano Primo,MI,❌ No data,0,N/A,N/A,,False
+10350,Cuggiono v. Languria,Cuggiono,MI,❌ No data,0,N/A,N/A,,False
+10352,Turbigo,Turbigo,MI,✅ Available,353,2019-01-02,2019-12-31,24.81586402266289,True
+10354,Robecchetto con Induno v. Pertini,Robecchetto con Induno,MI,❌ No data,0,N/A,N/A,,False
+10355,Robecchetto con Induno v. Pertini,Robecchetto con Induno,MI,❌ No data,0,N/A,N/A,,False
+10384,Sannazzaro de' Burgondi v.Traversi,Sannazzaro de' Burgondi,PV,✅ Available,7220,2019-01-01,2019-12-31,0.8385872576177286,True
+10390,Gallarate  P.zza S.Lorenzo,Gallarate,VA,❌ No data,0,N/A,N/A,,False
+10396,Monza v.Machiavelli,Monza,MB,✅ Available,338,2019-01-02,2019-12-31,20.13609467455621,True
+10399,Bergamo v.Meucci,Bergamo,BG,✅ Available,362,2019-01-02,2019-12-31,20.11878453038674,True
+10405,Bergamo v.Garibaldi,Bergamo,BG,✅ Available,357,2019-01-02,2019-12-31,27.053221288515406,True
+10406,Villa di Serio v. Glera,Villa di Serio,BG,❌ No data,0,N/A,N/A,,False
+10407,Villa di Serio v. Glera,Villa di Serio,BG,❌ No data,0,N/A,N/A,,False
+10411,Villa di Serio v. Glera,Villa di Serio,BG,❌ No data,0,N/A,N/A,,False
+10413,Villa di Serio v. Glera,Villa di Serio,BG,❌ No data,0,N/A,N/A,,False
+10431,Sondrio v.Paribelli,Sondrio,SO,✅ Available,8427,2019-01-01,2019-12-31,38.85342351963925,True
+10432,Sondrio v.Paribelli,Sondrio,SO,✅ Available,8428,2019-01-01,2019-12-31,18.89945420028476,True
+10433,Sondrio v.Paribelli,Sondrio,SO,❌ No data,0,N/A,N/A,,False
+10437,Sondrio v.Paribelli,Sondrio,SO,✅ Available,8310,2019-01-01,2019-12-31,40.54432009626955,True
+10438,Sondrio v.Paribelli,Sondrio,SO,✅ Available,359,2019-01-02,2019-12-31,16.4066852367688,True
+10449,Varese v.Copelli,Varese,VA,✅ Available,353,2019-01-02,2019-12-31,18.807365439093484,True
+10450,Darfo Boario Terme v. De Amicis,Darfo Boario Terme,BS,✅ Available,331,2019-01-09,2019-12-29,22.854984894259818,True
+10451,Lodi S.Alberto,Lodi,LO,✅ Available,8607,2019-01-01,2019-12-31,50.41447658882306,True
+10452,Lodi S.Alberto,Lodi,LO,✅ Available,8607,2019-01-01,2019-12-31,29.258986871151386,True
+10454,Lodi S.Alberto,Lodi,LO,✅ Available,8515,2019-01-01,2019-12-31,49.48189078097475,True
+10456,Lodi S.Alberto,Lodi,LO,✅ Available,345,2019-01-02,2019-12-31,22.455072463768115,True
+10457,Bertonico v.Moro,Bertonico,LO,✅ Available,8562,2019-01-01,2019-12-31,38.64525811726232,True
+10458,Bertonico v.Moro,Bertonico,LO,✅ Available,8563,2019-01-01,2019-12-31,23.513231344155084,True
+10463,Bertonico v.Moro,Bertonico,LO,✅ Available,8391,2019-01-01,2019-12-31,50.054844476224524,True
+10473,Turano Lodigiano v. Gramsci,Turano Lodigiano,LO,❌ No data,0,N/A,N/A,,False
+10474,Turano Lodigiano v. Gramsci,Turano Lodigiano,LO,❌ No data,0,N/A,N/A,,False
+10475,Turano Lodigiano v. Gramsci,Turano Lodigiano,LO,❌ No data,0,N/A,N/A,,False
+10477,Turano Lodigiano v. Gramsci,Turano Lodigiano,LO,❌ No data,0,N/A,N/A,,False
+10479,Turano Lodigiano v. Gramsci,Turano Lodigiano,LO,❌ No data,0,N/A,N/A,,False
+10483,Lodi S.Alberto,Lodi,LO,✅ Available,345,2019-01-02,2019-12-31,29.463768115942027,True
+10484,Bertonico v.Moro,Bertonico,LO,✅ Available,353,2019-01-02,2019-12-31,28.762039660056658,True
+10491,Moggio Loc. Penscei,Moggio,LC,✅ Available,350,2019-01-02,2019-12-31,13.714285714285714,True
+10501,Darfo Boario Terme v. De Amicis,Darfo Boario Terme,BS,✅ Available,330,2019-01-09,2019-12-29,30.10909090909091,True
+10505,Dalmine v.Verdi,Dalmine,BG,✅ Available,8561,2019-01-01,2019-12-31,47.097745590468406,True
+10506,Dalmine v.Verdi,Dalmine,BG,✅ Available,8032,2019-01-01,2019-12-31,0.6796812749003985,True
+10507,Dalmine v.Verdi,Dalmine,BG,✅ Available,8561,2019-01-01,2019-12-31,29.206284312580305,True
+10511,Dalmine v.Verdi,Dalmine,BG,✅ Available,8533,2019-01-01,2019-12-31,0.4700457049103481,True
+10516,Mantova Tridolino,Mantova,MN,❌ No data,0,N/A,N/A,,False
+10547,Dalmine v.Verdi,Dalmine,BG,✅ Available,302,2019-01-02,2019-12-31,23.3476821192053,True
+10548,Dalmine v.Verdi,Dalmine,BG,✅ Available,311,2019-01-02,2019-12-31,28.7524115755627,True
+10580,Cremona P.zza Cadorna,Cremona,CR,✅ Available,8728,2019-01-01,2019-12-31,4.227589367552704,True
+10581,Perledo P.zza della stazione,Perledo,LC,✅ Available,8582,2019-01-01,2019-12-31,15.375635050104872,True
+10583,Perledo P.zza della stazione,Perledo,LC,✅ Available,8581,2019-01-01,2019-12-31,21.874443538049174,True
+10584,Perledo P.zza della stazione,Perledo,LC,✅ Available,8359,2019-01-01,2019-12-31,63.50434262471588,True
+10586,Cremona Via Fatebenefratelli,Cremona,CR,✅ Available,324,2019-01-02,2019-12-31,25.959876543209877,True
+10587,Bertonico v.Moro,Bertonico,LO,✅ Available,7559,2019-01-14,2019-12-31,34.744079904749306,True
+11041,Monza v.Machiavelli,Monza,MB,✅ Available,6799,2019-02-16,2019-12-31,3.366097955581703,True
+12016,Spinadesco v.Battisti,Spinadesco,CR,✅ Available,8723,2019-01-01,2019-12-31,31.627421758569298,True
+12017,Spinadesco v.Battisti,Spinadesco,CR,✅ Available,8724,2019-01-01,2019-12-31,21.056453461714813,True
+12020,Spinadesco v.Battisti,Spinadesco,CR,✅ Available,8719,2019-01-01,2019-12-31,46.75514393852506,True
+12022,Spinadesco v.Battisti,Spinadesco,CR,✅ Available,358,2019-01-02,2019-12-31,26.374301675977655,True
+12028,Pavia v. Folperti,Pavia,PV,✅ Available,340,2019-01-02,2019-12-31,29.05294117647059,True
+12029,Lecco v.Sora,Lecco,LC,✅ Available,347,2019-01-02,2019-12-31,12.861671469740633,True
+12531,Spinadesco v.Battisti,Spinadesco,CR,✅ Available,356,2019-01-02,2019-12-31,35.51966292134831,True
+12570,Como v.Cattaneo,Como,CO,✅ Available,344,2019-01-02,2019-12-31,19.680232558139537,True
+12574,Sannazzaro de' Burgondi v.Traversi,Sannazzaro de' Burgondi,PV,✅ Available,337,2019-01-02,2019-12-31,20.204747774480712,True
+12577,Cremona P.zza Cadorna,Cremona,CR,✅ Available,358,2019-01-02,2019-12-31,20.435754189944134,True
+12579,Cremona v.Gerre Borghi,Cremona,CR,❌ No data,0,N/A,N/A,,False
+12581,Cremona v.Gerre Borghi,Cremona,CR,❌ No data,0,N/A,N/A,,False
+12583,Cremona v.Gerre Borghi,Cremona,CR,❌ No data,0,N/A,N/A,,False
+12584,Cremona P.zza Cadorna,Cremona,CR,✅ Available,338,2019-01-02,2019-12-31,32.92603550295858,True
+12585,Cremona v.Gerre Borghi,Cremona,CR,❌ No data,0,N/A,N/A,,False
+12587,Cremona v.Gerre Borghi,Cremona,CR,❌ No data,0,N/A,N/A,,False
+12588,Brescia Villaggio Sereno,Brescia,BS,✅ Available,60,2019-01-02,2019-12-30,6.8637999999999995,True
+12589,Brescia Villaggio Sereno,Brescia,BS,✅ Available,60,2019-01-02,2019-12-30,1.6633333333333329,True
+12590,Brescia Villaggio Sereno,Brescia,BS,✅ Available,60,2019-01-02,2019-12-30,0.27394999999999997,True
+12591,Brescia Villaggio Sereno,Brescia,BS,✅ Available,60,2019-01-02,2019-12-30,18.691883333333333,True
+12593,Brescia Villaggio Sereno,Brescia,BS,✅ Available,248,2019-01-02,2019-12-14,0.42878629032258064,True
+12596,Casirate d'Adda v. Cimitero,Casirate d'Adda,BG,✅ Available,59,2019-01-03,2019-12-29,1.0499999999999998,True
+12597,Casirate d'Adda v. Cimitero,Casirate d'Adda,BG,✅ Available,59,2019-01-03,2019-12-29,0.2569322033898305,True
+12598,Casirate d'Adda v. Cimitero,Casirate d'Adda,BG,✅ Available,59,2019-01-03,2019-12-29,11.71059322033898,True
+12600,Casirate d'Adda v. Cimitero,Casirate d'Adda,BG,✅ Available,122,2019-01-02,2019-12-31,0.5318770491803279,True
+12601,Darfo Boario Terme v. De Amicis,Darfo Boario Terme,BS,✅ Available,58,2019-01-09,2019-12-29,4.72401724137931,True
+12602,Darfo Boario Terme v. De Amicis,Darfo Boario Terme,BS,✅ Available,58,2019-01-09,2019-12-29,1.175189655172414,True
+12603,Darfo Boario Terme v. De Amicis,Darfo Boario Terme,BS,✅ Available,58,2019-01-09,2019-12-29,0.21877586206896552,True
+12604,Darfo Boario Terme v. De Amicis,Darfo Boario Terme,BS,✅ Available,58,2019-01-09,2019-12-29,7.343206896551724,True
+12605,Darfo Boario Terme v. De Amicis,Darfo Boario Terme,BS,✅ Available,124,2019-01-10,2019-12-28,1.0782177419354837,True
+12607,Magenta v. F. Turati,Magenta,MI,✅ Available,60,2019-01-03,2019-12-30,5.4017,True
+12608,Magenta v. F. Turati,Magenta,MI,✅ Available,60,2019-01-03,2019-12-30,1.10275,True
+12609,Magenta v. F. Turati,Magenta,MI,✅ Available,60,2019-01-03,2019-12-30,0.20776666666666668,True
+12610,Magenta v. F. Turati,Magenta,MI,✅ Available,60,2019-01-03,2019-12-30,10.105783333333333,True
+12611,Magenta v. F. Turati,Magenta,MI,✅ Available,119,2019-01-02,2019-12-19,0.7934117647058823,True
+12613,Mantova S.Agnese,Mantova,MN,✅ Available,58,2019-01-03,2019-12-22,4.588741379310345,True
+12614,Mantova S.Agnese,Mantova,MN,✅ Available,58,2019-01-03,2019-12-22,1.0680517241379308,True
+12615,Mantova S.Agnese,Mantova,MN,✅ Available,58,2019-01-03,2019-12-22,0.27653448275862064,True
+12616,Mantova S.Agnese,Mantova,MN,✅ Available,58,2019-01-03,2019-12-22,6.536931034482759,True
+12617,Mantova S.Agnese,Mantova,MN,✅ Available,122,2019-01-02,2019-12-25,0.4606311475409836,True
+12619,Meda v. Gagarin,Meda,MB,✅ Available,57,2019-01-04,2019-12-28,4.833666666666667,True
+12620,Meda v. Gagarin,Meda,MB,✅ Available,57,2019-01-04,2019-12-28,1.1127719298245613,True
+12621,Meda v. Gagarin,Meda,MB,✅ Available,57,2019-01-04,2019-12-28,0.18212280701754385,True
+12622,Meda v. Gagarin,Meda,MB,✅ Available,57,2019-01-04,2019-12-28,13.581526315789473,True
+12623,Meda v. Gagarin,Meda,MB,✅ Available,115,2019-01-03,2019-12-08,1.882773913043478,True
+12624,Milano Pascal Città Studi,Milano,MI,✅ Available,56,2019-01-04,2019-12-23,4.125589285714286,True
+12625,Milano Pascal Città Studi,Milano,MI,✅ Available,56,2019-01-04,2019-12-23,0.6002678571428574,True
+12626,Milano Pascal Città Studi,Milano,MI,✅ Available,56,2019-01-04,2019-12-23,0.14551785714285717,True
+12627,Milano Pascal Città Studi,Milano,MI,✅ Available,56,2019-01-04,2019-12-23,9.325089285714286,True
+12629,Milano Pascal Città Studi,Milano,MI,✅ Available,117,2019-01-03,2019-12-19,0.15860683760683764,True
+12637,Milano v.Senato,Milano,MI,✅ Available,61,2019-01-04,2019-12-27,5.337524590163935,True
+12638,Milano v.Senato,Milano,MI,✅ Available,61,2019-01-04,2019-12-27,1.1360655737704914,True
+12639,Milano v.Senato,Milano,MI,✅ Available,61,2019-01-04,2019-12-27,0.16744262295081971,True
+12640,Milano v.Senato,Milano,MI,✅ Available,61,2019-01-04,2019-12-27,15.548229508196723,True
+12641,Milano v.Senato,Milano,MI,✅ Available,113,2019-01-02,2019-11-28,0.3600442477876106,True
+12661,Moggio Loc. Penscei,Moggio,LC,✅ Available,55,2019-01-04,2019-12-30,4.468290909090909,True
+12662,Moggio Loc. Penscei,Moggio,LC,✅ Available,55,2019-01-04,2019-12-30,1.0499999999999996,True
+12663,Moggio Loc. Penscei,Moggio,LC,✅ Available,55,2019-01-04,2019-12-30,0.06716363636363637,True
+12664,Moggio Loc. Penscei,Moggio,LC,✅ Available,55,2019-01-04,2019-12-30,3.762072727272728,True
+12665,Moggio Loc. Penscei,Moggio,LC,✅ Available,55,2019-01-02,2019-11-23,0.06121818181818181,True
+12667,Schivenoglia v. Malpasso,Schivenoglia,MN,✅ Available,60,2019-01-04,2019-12-24,2.583416666666667,True
+12668,Schivenoglia v. Malpasso,Schivenoglia,MN,✅ Available,60,2019-01-04,2019-12-24,0.5258666666666667,True
+12669,Schivenoglia v. Malpasso,Schivenoglia,MN,✅ Available,60,2019-01-04,2019-12-24,0.07938333333333333,True
+12670,Schivenoglia v. Malpasso,Schivenoglia,MN,✅ Available,60,2019-01-04,2019-12-24,5.531916666666666,True
+12671,Schivenoglia v. Malpasso,Schivenoglia,MN,✅ Available,119,2019-01-02,2019-12-28,0.25188235294117645,True
+12673,Sondrio v.Paribelli,Sondrio,SO,✅ Available,61,2019-01-03,2019-12-31,15.290262295081968,True
+12674,Sondrio v.Paribelli,Sondrio,SO,✅ Available,61,2019-01-03,2019-12-31,1.0499999999999998,True
+12675,Sondrio v.Paribelli,Sondrio,SO,✅ Available,61,2019-01-03,2019-12-31,0.11814754098360655,True
+12676,Sondrio v.Paribelli,Sondrio,SO,✅ Available,122,2019-01-02,2019-12-30,1.4846639344262293,True
+12684,Soresina v. Landriani,Soresina,CR,✅ Available,61,2019-01-03,2019-12-31,3.586360655737705,True
+12685,Soresina v. Landriani,Soresina,CR,✅ Available,61,2019-01-03,2019-12-31,1.139377049180328,True
+12686,Soresina v. Landriani,Soresina,CR,✅ Available,61,2019-01-03,2019-12-31,0.14554098360655743,True
+12687,Soresina v. Landriani,Soresina,CR,✅ Available,61,2019-01-03,2019-12-31,9.514934426229509,True
+12688,Soresina v. Landriani,Soresina,CR,✅ Available,125,2019-01-04,2019-12-30,0.387088,True
+12690,Varese v.Copelli,Varese,VA,✅ Available,61,2019-01-03,2019-12-28,5.350131147540984,True
+12691,Varese v.Copelli,Varese,VA,✅ Available,61,2019-01-03,2019-12-28,1.0673114754098358,True
+12692,Varese v.Copelli,Varese,VA,✅ Available,61,2019-01-03,2019-12-28,0.08227868852459017,True
+12693,Varese v.Copelli,Varese,VA,✅ Available,61,2019-01-03,2019-12-28,4.801622950819673,True
+12694,Varese v.Copelli,Varese,VA,✅ Available,129,2019-01-02,2019-12-30,0.24430232558139534,True
+12695,Sondrio v.Paribelli,Sondrio,SO,✅ Available,61,2019-01-03,2019-12-31,4.247622950819673,True
+12696,Casirate d'Adda v. Cimitero,Casirate d'Adda,BG,✅ Available,59,2019-01-03,2019-12-29,6.620610169491526,True
+17037,Bergamo v.Meucci,Bergamo,BG,✅ Available,116,2019-01-02,2019-12-13,0.22151724137931036,True
+17038,Bergamo v.Meucci,Bergamo,BG,✅ Available,61,2019-01-03,2019-12-29,1.1019016393442622,True
+17039,Bergamo v.Meucci,Bergamo,BG,✅ Available,61,2019-01-03,2019-12-29,0.13227868852459015,True
+17040,Bergamo v.Meucci,Bergamo,BG,✅ Available,61,2019-01-03,2019-12-29,9.89988524590164,True
+17041,Bergamo v.Meucci,Bergamo,BG,✅ Available,61,2019-01-03,2019-12-29,8.383180327868851,True
+17042,Cremona Via Fatebenefratelli,Cremona,CR,✅ Available,8671,2019-01-01,2019-12-31,5.998869795871296,True
+17082,Sondrio v.Mazzini,Sondrio,SO,❌ No data,0,N/A,N/A,,False
+17083,Sondrio v.Mazzini,Sondrio,SO,❌ No data,0,N/A,N/A,,False
+17084,Sondrio v.Mazzini,Sondrio,SO,❌ No data,0,N/A,N/A,,False
+17085,Sondrio v.Mazzini,Sondrio,SO,❌ No data,0,N/A,N/A,,False
+17086,Sondrio v.Mazzini,Sondrio,SO,❌ No data,0,N/A,N/A,,False
+17122,Milano v.Senato,Milano,MI,✅ Available,356,2019-01-02,2019-12-31,20.75,True
+17126,Milano Pascal Città Studi,Milano,MI,✅ Available,8665,2019-01-01,2019-12-31,1.5265781881130989,True
+17127,Milano v.Marche,Milano,MI,✅ Available,8348,2019-01-01,2019-12-31,1.9551868711068519,True
+17159,Soresina v. Landriani,Soresina,CR,✅ Available,343,2019-01-02,2019-12-31,26.341107871720116,True
+17162,Moggio Loc. Penscei,Moggio,LC,✅ Available,347,2019-01-02,2019-12-31,9.982708933717579,True
+17163,Darfo Boario Terme v. De Amicis,Darfo Boario Terme,BS,✅ Available,8303,2019-01-01,2019-12-31,1.2159701312778515,True
+17284,Monza Parco,Monza,MB,✅ Available,1338,2019-03-19,2019-07-09,23.22144992526158,True
+17285,Monza Parco,Monza,MB,✅ Available,5833,2019-01-01,2019-12-31,59.93929367392422,True
+17286,Monza Parco,Monza,MB,✅ Available,5873,2019-01-01,2019-12-31,38.15264770985868,True
+17288,Monza Parco,Monza,MB,✅ Available,8290,2019-01-01,2019-12-31,43.733811821471654,True
+17290,Monza Parco,Monza,MB,✅ Available,312,2019-01-02,2019-12-31,25.602564102564102,True
+17293,Sondrio v.Paribelli,Sondrio,SO,✅ Available,359,2019-01-02,2019-12-31,20.724233983286908,True
+17295,Busto Arsizio  Accam,Busto Arsizio,VA,✅ Available,8615,2019-01-01,2019-12-31,46.684747533372025,True
+17297,Bergamo v.Meucci,Bergamo,BG,✅ Available,8609,2019-01-01,2019-12-31,56.704588221628526,True
+20004,Milano Pascal Città Studi,Milano,MI,✅ Available,8616,2019-01-01,2019-12-31,2.200081244196843,True
+20005,Milano v.Senato,Milano,MI,✅ Available,516,2019-05-01,2019-05-23,0.7655038759689923,True
+20020,Milano Pascal Città Studi,Milano,MI,✅ Available,2632,2019-01-01,2019-12-31,6.709536474164134,True
+20031,Sannazzaro de' Burgondi v.Traversi,Sannazzaro de' Burgondi,PV,✅ Available,7952,2019-01-01,2019-12-31,9.50808601609658,True
+20032,Sannazzaro de' Burgondi v.Traversi,Sannazzaro de' Burgondi,PV,✅ Available,7952,2019-01-01,2019-12-31,35.848226861167,True
+20034,Sannazzaro de' Burgondi v.Traversi,Sannazzaro de' Burgondi,PV,✅ Available,7953,2019-01-01,2019-12-31,24.05401735194266,True
+20041,Mantova S.Agnese,Mantova,MN,✅ Available,8420,2019-01-01,2019-12-31,48.70038004750594,True
+20042,Schivenoglia v. Malpasso,Schivenoglia,MN,✅ Available,5265,2019-01-01,2019-12-31,16.006856600189934,True
+20082,Colico v.La Madoneta,Colico,LC,✅ Available,7180,2019-01-01,2019-12-31,3.7124791086350974,True
+20104,Treviglio p.zza Insurrezione,Treviglio,BG,✅ Available,362,2019-01-02,2019-12-31,17.955801104972377,True
+20154,Mezzana Bigli loc. Casoni,Mezzana Bigli,PV,✅ Available,7800,2019-01-01,2019-12-20,54.51021794871795,True
+20155,Mezzana Bigli loc. Casoni,Mezzana Bigli,PV,✅ Available,322,2019-01-02,2019-12-31,23.72360248447205,True
+20156,Pavia v. Folperti,Pavia,PV,✅ Available,8340,2019-01-01,2019-12-31,5.3871822541966425,True
+20157,Pavia v. Folperti,Pavia,PV,✅ Available,308,2019-01-02,2019-12-22,23.204545454545453,True
+20197,San Rocco al Porto v.Matteotti,San Rocco al Porto,LO,✅ Available,361,2019-01-02,2019-12-31,27.9196675900277,True
+20216,Mezzana Bigli loc. Casoni,Mezzana Bigli,PV,✅ Available,8383,2019-01-01,2019-12-31,4.4715257067875465,True
+20358,Sesto San Giovanni v. Cesare da Sesto,Sesto San Giovanni,MI,✅ Available,315,2019-01-02,2019-12-31,20.682539682539684,True
+20401,Bormio v.Monte Braulio,Bormio,SO,✅ Available,8664,2019-01-01,2019-12-31,0.6703254847645429,True
+20427,Cassano d'Adda 2-v.Milano,Cassano d'Adda,MI,✅ Available,8014,2019-01-12,2019-12-31,1.8396930371849265,True
+20428,Cassano d'Adda 2-v.Milano,Cassano d'Adda,MI,❌ No data,0,N/A,N/A,,False
+20429,Milano v.Marche,Milano,MI,✅ Available,363,2019-01-02,2019-12-31,35.043250688705236,True
+20441,Moggio Loc. Penscei,Moggio,LC,✅ Available,8277,2019-01-01,2019-12-31,8.903564093270509,True
+20442,Moggio Loc. Penscei,Moggio,LC,✅ Available,8277,2019-01-01,2019-12-31,3.4688051226289716,True
+20443,Moggio Loc. Penscei,Moggio,LC,✅ Available,8277,2019-01-01,2019-12-31,6.2557689984293825,True
+20455,Milano v.Marche,Milano,MI,❌ No data,0,N/A,N/A,,False
+20465,Milano v.Senato,Milano,MI,❌ No data,0,N/A,N/A,,False
+20484,Milano Pascal Città Studi,Milano,MI,❌ No data,0,N/A,N/A,,False
+20487,Ponti sul Mincio v.San Martino,Ponti sul Mincio,MN,❌ No data,0,N/A,N/A,,False
+20488,Erba v. Battisti,Erba,CO,❌ No data,0,N/A,N/A,,False
+20489,Brescia S.Polo,Brescia,BS,❌ No data,0,N/A,N/A,,False
+20490,Brescia S.Polo,Brescia,BS,❌ No data,0,N/A,N/A,,False
+20491,Brescia S.Polo,Brescia,BS,❌ No data,0,N/A,N/A,,False
+20492,Brescia S.Polo,Brescia,BS,❌ No data,0,N/A,N/A,,False
+20493,Brescia v.Tartaglia,Brescia,BS,❌ No data,0,N/A,N/A,,False
+20494,Brescia v.Tartaglia,Brescia,BS,❌ No data,0,N/A,N/A,,False
+20495,Brescia v.Tartaglia,Brescia,BS,❌ No data,0,N/A,N/A,,False
+20496,Brescia v.Tartaglia,Brescia,BS,❌ No data,0,N/A,N/A,,False
+20497,Brescia v.Tartaglia,Brescia,BS,❌ No data,0,N/A,N/A,,False
+20523,Bergamo v.Meucci,Bergamo,BG,❌ No data,0,N/A,N/A,,False
+20525,Motta Visconti v. De Gasperi,Motta Visconti,MI,❌ No data,0,N/A,N/A,,False
+20528,Parona v. della Miseria,Parona,PV,❌ No data,0,N/A,N/A,,False
+20529,Milano v.Marche,Milano,MI,❌ No data,0,N/A,N/A,,False
+20564,Brescia v.Tartaglia,Brescia,BS,❌ No data,0,N/A,N/A,,False
+20565,Bergamo v.Garibaldi,Bergamo,BG,✅ Available,357,2019-01-02,2019-12-31,27.053221288515406,True
+20569,Brescia v.Tartaglia,Brescia,BS,❌ No data,0,N/A,N/A,,False
+20571,Viadana v. Cavalli,Viadana,MN,❌ No data,0,N/A,N/A,,False
+20574,Motta Visconti v. De Gasperi,Motta Visconti,MI,❌ No data,0,N/A,N/A,,False
+20591,Lecco v. Amendola,Lecco,LC,❌ No data,0,N/A,N/A,,False
+20617,Cremona Via Fatebenefratelli,Cremona,CR,❌ No data,0,N/A,N/A,,False
+20751,DarfoBT,Darfo Boario Terme,BS,❌ No data,0,N/A,N/A,,False
+20752,DarfoBT,Darfo Boario Terme,BS,❌ No data,0,N/A,N/A,,False
+20753,DarfoBT,Darfo Boario Terme,BS,❌ No data,0,N/A,N/A,,False
+20754,DarfoBT,Darfo Boario Terme,BS,❌ No data,0,N/A,N/A,,False
+20758,DarfoBT,Darfo Boario Terme,BS,❌ No data,0,N/A,N/A,,False
+20759,DarfoBT,Darfo Boario Terme,BS,❌ No data,0,N/A,N/A,,False
+29001,Milano v.Marche,Milano,MI,❌ No data,0,N/A,N/A,,False
+29041,Como v.Cattaneo,Como,CO,✅ Available,8499,2019-01-01,2019-12-31,0.6218143310977762,True
+30129,Piadena v. Cavour,Piadena,CR,❌ No data,0,N/A,N/A,,False
+30158,Brescia v.Broletto,Brescia,BS,✅ Available,332,2019-01-02,2019-12-31,18.44277108433735,True
+30159,Darfo Boario Terme v. De Amicis,Darfo Boario Terme,BS,✅ Available,8328,2019-01-01,2019-12-31,43.76820365033621,True
+30160,Darfo Boario Terme v. De Amicis,Darfo Boario Terme,BS,✅ Available,8328,2019-01-01,2019-12-31,26.455463496637847,True
+30162,Brescia Villaggio Sereno,Brescia,BS,✅ Available,7835,2019-01-01,2019-12-31,52.83513720485003,True
+30163,Brescia Villaggio Sereno,Brescia,BS,✅ Available,7835,2019-01-01,2019-12-31,28.94746649649011,True
+30165,Brescia Villaggio Sereno,Brescia,BS,✅ Available,7908,2019-01-01,2019-12-31,48.55608244815377,True
+30166,Brescia v.Turati,Brescia,BS,✅ Available,8563,2019-01-01,2019-12-31,0.7820857176223286,True
