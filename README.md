@@ -8,6 +8,7 @@ Our project three main parts:
 In our project local database was used, to configure it on your PC there are two ways:
 1. Restore database from the file "DB_2019.sql".
 2. Create a database using python script.
+
 In the second case follow these steps:
 1. Manually create database and name it "DB_2019".
 2. Create the extension "PostGIS" to this database.
