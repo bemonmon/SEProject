@@ -5,7 +5,10 @@ Our project three main parts:
 3. dashboard
 
 # Configuration of the database
-In our project local database was used, to configure it on your PC follow these steps:
+In our project local database was used, to configure it on your PC there are two ways:
+1. Restore database from the file "DB_2019.sql".
+2. Create a database using python script.
+In the second case follow these steps:
 1. Manually create database and name it "DB_2019".
 2. Create the extension "PostGIS" to this database.
 3. Run file "SEfG_DB_Creation.ipynb" to create tables and relations (it's important to change connection to database settings inside the file and make sure that the file "SEfG_DB_Creation.ipynb" is in the same folder with "Dati_sensori_aria_dal_2019.csv" file).
