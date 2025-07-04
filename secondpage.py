@@ -10,11 +10,36 @@ from datetime import datetime as dt
 from datetime import timedelta
 import numpy as np
 from sklearn.linear_model import LinearRegression
+import time
 
 # --- Configuration for Flask API ---
 FLASK_API_URL = "http://127.0.0.1:5000"
 
 # --- Data Fetching Functions ---
+# Fetching data function for the plot "Average Values per Day per Pollutant and Comune"
+global df
+df = pd.DataFrame(columns=['nome_tipo_sensore', 'provincia','comune', 'day', 'avg_value'])
+
+def load_data_1():
+        """Load data from Flask endpoint with retry logic"""
+        global df
+        if df.empty:
+            for attempt in range(5):  # Try 5 times
+                try:
+                    url = f"http://localhost:5000/data_1"
+                    response = requests.get(url, timeout=5)
+                    response.raise_for_status()
+                    data = response.json()
+                    df = pd.DataFrame(data)
+                    print("Data loaded successfully from Flask endpoint")
+                    break
+                except Exception as e:
+                    print(f"Attempt {attempt + 1}: Error loading data from Flask /data_1:", e)
+                    if attempt < 4:  # Don't sleep on last attempt
+                        time.sleep(1)  # Wait 1 second before retry
+        return df
+
+
 def fetch_sensors_data():
     """Fetches sensor metadata from the Flask API."""
     try:
@@ -370,6 +395,26 @@ def get_second_page_layout():
             )
         ], style={'padding': '20px', 'border': '1px solid #ddd', 'borderRadius': '8px', 'margin': '20px auto', 'width': '90%'}),
 
+        # Average values per day per pollutant and comune
+        html.H2("Average Values per Day per Pollutant and Comune", style={'textAlign': 'center', 'marginBottom': '20px', 'color': '#555'}),
+        html.Div([
+            html.H5("Choose the pollutant type"),
+            dcc.Dropdown(
+                id="nome_tipo_sensore",
+                options=[],
+                value=None,
+                clearable=False,
+            ),
+
+            html.H5("Choose the province"),
+            dcc.Dropdown(id="provincia", clearable=False),
+
+            html.H5("Choose the comune"),
+            dcc.Dropdown(id="comune", clearable=False),
+
+            dcc.Graph(id="line"),
+        ], style={'padding': '20px', 'border': '1px solid #ddd', 'borderRadius': '8px', 'margin': '20px auto', 'width': '90%'}),
+
         # Store station data for callbacks
         dcc.Store(id='station-data-store', data=station_df.to_dict('records')),
         dcc.Store(id='sensor-data-store', data=sensor_df.to_dict('records'))
@@ -626,6 +671,78 @@ def register_second_page_callbacks(app):
             import plotly.io as pio
             html_str = pio.to_html(figure, include_plotlyjs='cdn')
             return dict(content=html_str, filename="multi_sensor_station_plot.html")
+    
+
+
+    @app.callback(
+        Output("nome_tipo_sensore", "options"),
+        Output("nome_tipo_sensore", "value"),
+        Input("nome_tipo_sensore", "id"),  # Triggers on page load
+    )
+    def load_pollutant_options(_id):
+        df_current = load_data_1()
+        if df_current.empty:
+            return [], None
+        pollutants = sorted(df_current["nome_tipo_sensore"].unique())
+        return [{"label": p, "value": p} for p in pollutants], pollutants[0]
+    @app.callback(
+        Output("provincia", "options"),
+        Output("provincia", "value"),
+        Input("nome_tipo_sensore", "value"),
+    )
+
+    def update_province_options(selected_pollutant):
+        if not selected_pollutant:
+            return [], None
+        df_current = load_data_1()
+        dff = df_current[df_current["nome_tipo_sensore"] == selected_pollutant]
+        provinces = sorted(dff["provincia"].unique())
+        value = provinces[0] if provinces else None
+        return [{"label": p, "value": p} for p in provinces], value
+
+    @app.callback(
+        Output("comune", "options"),
+        Output("comune", "value"),
+        Input("nome_tipo_sensore", "value"),
+        Input("provincia", "value"),
+    )
+    def update_comune_options(selected_pollutant, selected_province):
+        if not selected_pollutant or not selected_province:
+            return [], None
+        df_current = load_data_1()
+        dff = df_current[(df_current["nome_tipo_sensore"] == selected_pollutant) & (df_current["provincia"] == selected_province)]
+        communes = sorted(dff["comune"].unique())
+        value = communes[0] if communes else None
+        return [{"label": c, "value": c} for c in communes], value
+
+    @app.callback(
+        Output("line", "figure"),
+        Input("nome_tipo_sensore", "value"),
+        Input("provincia", "value"),
+        Input("comune", "value"),
+    )
+    def update_line_chart(nome_tipo_sensore, provincia, comune):
+        if not all([nome_tipo_sensore, provincia, comune]):
+            return px.line(title="Please select all parameters")
+
+        df_current = load_data_1()
+        dff = df_current[
+            (df_current["nome_tipo_sensore"] == nome_tipo_sensore) &
+            (df_current["provincia"] == provincia) &
+            (df_current["comune"] == comune)
+        ]
+        if dff.empty:
+            fig = px.line(title="No data available")
+        else:
+            dff["day"] = pd.to_datetime(dff["day"]).dt.strftime("%d %b %Y")
+            fig = px.line(
+                dff,
+                x="day",
+                y=["avg_value"],
+                labels={"avg_value": "Value", "day": "Day"},
+                title=f"Pollution level of {nome_tipo_sensore} in {comune}, {provincia}",
+            )
+        return fig
 
 # Main application setup
 if __name__ == '__main__':

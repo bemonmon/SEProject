@@ -10,10 +10,35 @@ import geopandas # Import geopandas
 import random # Import for random selection
 from secondpage import get_second_page_layout
 from secondpage import register_second_page_callbacks
+import time
+import hashlib
 
 
 # --- API Configuration ---
 FLASK_API_URL = "http://127.0.0.1:5000"
+
+# Global DataFrame to store user login data
+global df_users
+df_users = pd.DataFrame(columns=['username', 'password_hash'])
+
+def load_users():
+    """Load user login data from Flask endpoint with retry logic"""
+    global df_users
+    if df_users.empty:
+        for attempt in range(5):  # Try 5 times
+            try:
+                url = "http://localhost:5000/users"
+                response = requests.get(url, timeout=5)
+                response.raise_for_status()
+                data = response.json()
+                df_users = pd.DataFrame(data)
+                print("User data loaded successfully from Flask endpoint")
+                break
+            except Exception as e:
+                print(f"Attempt {attempt + 1}: Error loading user data from /users:", e)
+                if attempt < 4:
+                    time.sleep(1)
+    return df_users
 
 def get_station_locations():
     """
@@ -224,34 +249,17 @@ index_page = html.Div([
         ],
     ),
 
-    html.Div([ # Login Card
-        
-        html.H3("Login to Access Full Features", style={'textAlign': 'center', 'color': COLORS['text'], 'marginBottom': '20px'}),
-        html.Div(
-            dcc.Input(
-                id="user", 
-                type="text", 
-                placeholder="Enter Username", 
-                style={**INPUT_STYLE, 'borderColor': COLORS['primary']}
-            )
-        ),
-        html.Div(
-            dcc.Input(
-                id="passw", 
-                type="password", 
-                placeholder="Enter Password", 
-                style={**INPUT_STYLE, 'borderColor': COLORS['primary']}
-            )
-        ),
-        html.Div(
-            html.Button('Verify', id='verify', n_clicks=0, 
-                        style={**BUTTON_STYLE, 'width': 'auto', 'display': 'block', 'margin': '20px auto 0 auto'}),
-            style={'textAlign': 'center'}
-        ),
-        html.Div(id='output1', style={'textAlign': 'center', 'marginTop': '15px'})
+    # Authentication Section
+    html.Div([
+        dcc.Tabs(id="auth_tabs", value='login', children=[
+            dcc.Tab(label='Login', value='login'),
+            dcc.Tab(label='Register', value='register'),
+        ]),
+
+        html.Div(id='auth_form'),  # Here we will insert the login or registration form
     ], style={
-        'width': '400px', 'margin': '40px auto', 'padding': '30px', 
-        'border': f'1px solid {COLORS["secondary"]}', 'borderRadius': '8px', 
+        'width': '400px', 'margin': '40px auto', 'padding': '30px',
+        'border': f'1px solid {COLORS["secondary"]}', 'borderRadius': '8px',
         'boxShadow': '0 2px 5px rgba(0,0,0,0.05)', 'backgroundColor': 'white'
     }),
 
@@ -329,26 +337,95 @@ next_page = html.Div([
     State('passw', 'value')
 )
 def update_output(n_clicks, uname, passw):
-    if n_clicks is None or n_clicks == 0:
+    if not n_clicks:
         return ''
-
-    credentials = {'majid': '123456', 'ali':"1219"} # Set 'majid' as username and '123456' as password
-
+    
     if not uname or not passw:
-        return html.Div(children='Please enter both username and password.',
+        return html.Div('Please enter both username and password.',
                         style={'color': COLORS['danger'], 'fontWeight': 'bold'})
 
-    if uname not in credentials:
-        return html.Div(children='Incorrect Username',
+    try:
+        # Load user data from the Flask API
+        response = requests.get("http://localhost:5000/users", timeout=5)
+        response.raise_for_status()
+        users_df = pd.DataFrame(response.json())
+
+        # Check if the username exists
+        if uname not in users_df['username'].values:
+            return html.Div('Incorrect Username',
+                            style={'color': COLORS['danger'], 'fontWeight': 'bold'})
+
+        # Get the password hash from the entered value
+        input_hash = hashlib.sha256(passw.encode()).hexdigest()
+
+        # Get the hash from the database
+        user_row = users_df[users_df['username'] == uname]
+        stored_hash = user_row['password_hash'].values[0]
+
+        if input_hash == stored_hash:
+            return html.Div(
+                dcc.Link('Access Granted! Click to proceed', href='/next_page',
+                         style={'color': COLORS['accent'], 'fontFamily': 'serif',
+                                'fontWeight': 'bold', "textDecoration": "none", 'fontSize': '20px'}),
+                style={'marginTop': '20px'}
+            )
+        else:
+            return html.Div('Incorrect Password',
+                            style={'color': COLORS['danger'], 'fontWeight': 'bold'})
+    except Exception as e:
+        return html.Div(f'Error connecting to server: {e}',
                         style={'color': COLORS['danger'], 'fontWeight': 'bold'})
 
-    if credentials[uname] == passw:
-        return html.Div(dcc.Link('Access Granted! Click to proceed', href='/next_page',
-                                 style={'color':COLORS['accent'],'fontFamily': 'serif', 'fontWeight': 'bold', "textDecoration": "none",'fontSize':'20px'}),
-                        style={'marginTop':'20px'})
+# Callback for handling user registration/login
+@app.callback(
+    Output('auth_form', 'children'),
+    Input('auth_tabs', 'value')
+)
+def render_auth_form(tab):
+    if tab == 'login':
+        return html.Div([
+            html.H3("Login", style={'textAlign': 'center'}),
+            dcc.Input(id="user", type="text", placeholder="Username", style=INPUT_STYLE),
+            dcc.Input(id="passw", type="password", placeholder="Password", style=INPUT_STYLE),
+            html.Button("Login", id="verify", n_clicks=0, style=BUTTON_STYLE),
+            html.Div(id="output1", style={'marginTop': '10px'})
+        ])
     else:
-        return html.Div(children='Incorrect Password',
-                        style={'color': COLORS['danger'], 'fontWeight': 'bold'})
+        return html.Div([
+            html.H3("Register", style={'textAlign': 'center'}),
+            dcc.Input(id="new_user", type="text", placeholder="New Username", style=INPUT_STYLE),
+            dcc.Input(id="new_pass", type="password", placeholder="New Password", style=INPUT_STYLE),
+            html.Button("Register", id="register_btn", n_clicks=0, style=BUTTON_STYLE),
+            html.Div(id="register_output", style={'marginTop': '10px'})
+        ])
+
+@app.callback(
+    Output('register_output', 'children'),
+    Input('register_btn', 'n_clicks'),
+    State('new_user', 'value'),
+    State('new_pass', 'value')
+)
+def register_user(n_clicks, username, password):
+    if not n_clicks:
+        return ''
+    if not username or not password:
+        return html.Div('Please fill in both fields.', style={'color': COLORS['danger']})
+
+    try:
+        password_hash = hashlib.sha256(password.encode()).hexdigest()
+        response = requests.post("http://localhost:5000/register", json={
+            "username": username,
+            "password_hash": password_hash
+        }, timeout=5)
+
+        if response.status_code == 201:
+            return html.Div('Registration successful! You can now log in.', style={'color': COLORS['success']})
+        elif response.status_code == 409:
+            return html.Div('Username already exists.', style={'color': COLORS['danger']})
+        else:
+            return html.Div('Registration failed.', style={'color': COLORS['danger']})
+    except Exception as e:
+        return html.Div(f'Error: {e}', style={'color': COLORS['danger']})
 
 # Callback to generate the map on the initial (login) page
 @app.callback(
