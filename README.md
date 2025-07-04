@@ -8,7 +8,7 @@ This project consists of three main components:
 
 ---
 
-## ⚙️ Database Configuration
+## Database Configuration
 
 A local PostgreSQL database with the PostGIS extension is required. You can set it up in one of two ways:
 
@@ -31,7 +31,7 @@ A local PostgreSQL database with the PostGIS extension is required. You can set 
 
 ---
 
-## 🚀 Running the Web Application
+## Running the Web Application
 
 Once the database is ready, follow these steps to launch the web app:
 
