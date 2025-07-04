@@ -1,20 +1,56 @@
-# Software Release Document
-Our project three main parts:
-1. database
-2. webserver 
-3. dashboard
+# 🌍 Air Quality Monitoring Web App
 
-# Configuration of the database
-In our project local database was used, to configure it on your PC there are two ways:
-1. Restore database from the file "DB_2019.sql".
-2. Create a database using python script.
+This project consists of three main components:
 
-In the second case follow these steps:
-1. Manually create database and name it "DB_2019".
-2. Create the extension "PostGIS" to this database.
-3. Run file "SEfG_DB_Creation.ipynb" to create tables and relations (it's important to change connection to database settings inside the file and make sure that the file "SEfG_DB_Creation.ipynb" is in the same folder with "Dati_sensori_aria_dal_2019.csv" file).
+1. **Database**
+2. **Webserver**
+3. **Dashboard**
 
-# Steps to run the website:
-1. Run "webserver.py" in Visual Studio Code by a terminal by typing: "python webserver.py" (it's important to change connection to database settings inside the file).
-2. Open a new terminal and run "dashboard.py" by typing: "python dashboard.py".
-3. Finally on http://127.0.0.1:4070/ you can see the website.
+---
+
+## ⚙️ Database Configuration
+
+A local PostgreSQL database with the PostGIS extension is required. You can set it up in one of two ways:
+
+### Option A: Restore from SQL Dump
+
+1. Restore the database using the file:
+
+   ```
+   DB_2019.sql
+   ```
+
+### Option B: Create from Scratch Using Python
+
+1. Manually create a PostgreSQL database named `DB_2019`.
+2. Enable the `PostGIS` extension in the new database.
+3. Ensure the following two files are in the same folder:
+   - `SEfG_DB_Creation.ipynb`
+   - `Dati_sensori_aria_dal_2019.csv`
+4. Open and run `SEfG_DB_Creation.ipynb`, after updating the database connection settings in the notebook.
+
+---
+
+## 🚀 Running the Web Application
+
+Once the database is ready, follow these steps to launch the web app:
+
+1. Run the webserver:
+
+   ```bash
+   python webserver.py
+   ```
+
+   > Make sure to update the database connection settings inside `webserver.py`.
+
+2. In a **new terminal**, run the dashboard:
+
+   ```bash
+   python dashboard.py
+   ```
+
+3. Open your browser and visit:
+
+   [http://127.0.0.1:4070/](http://127.0.0.1:4070/)
+
+---
