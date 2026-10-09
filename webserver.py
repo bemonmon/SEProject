@@ -41,9 +41,9 @@ API_HOST = "127.0.0.1"
 API_PORT = 5000  # change the port here if necessary
 
 DB_KWARGS = {
-    "dbname": "DB_2019",      # database name
+    "dbname": "db_2019",      # database name
     "user": "postgres",   # PostgreSQL user
-    "password": "", # PostgreSQL password
+    "password": "1111", # PostgreSQL password
     "host": "localhost",  # PostgreSQL host
     "port": 5432,          # PostgreSQL port
 }
@@ -76,7 +76,7 @@ DEMO_SENSORS = pd.DataFrame(
 def demo_aq(n_days: int = 3) -> pd.DataFrame:
     """Generate synthetic air‑quality readings for the demo sensors."""
     now = datetime.utcnow()
-    rng = pd.date_range(end=now, periods=n_days * 24, freq="H")
+    rng = pd.date_range(end=now, periods=n_days * 24, freq="h")
     rows: list[dict[str, Any]] = []
     for sid in DEMO_SENSORS["idsensore"]:
         vals = np.random.randint(20, 180, size=len(rng))

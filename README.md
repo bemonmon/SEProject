@@ -6,6 +6,9 @@ This project consists of three main components:
 2. **Webserver**
 3. **Dashboard**
 
+Video Demo:
+https://www.dropbox.com/scl/fi/wefhmv22w46b9wfzqge9g/AirQualityDashboardDemo.mp4?rlkey=rg2pf6jjqhys19ydsdhsh8ouj&st=g8zjcprx&dl=0
+
 ---
 
 ## Database Configuration
@@ -35,7 +38,13 @@ A local PostgreSQL database with the PostGIS extension is required. You can set 
 
 Once the database is ready, follow these steps to launch the web app:
 
-1. Run the webserver:
+1. Install all Python dependencies:
+
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
+
+2. Run the webserver:
 
    ```bash
    python webserver.py
@@ -43,13 +52,13 @@ Once the database is ready, follow these steps to launch the web app:
 
    > Make sure to update the database connection settings inside `webserver.py`.
 
-2. In a **new terminal**, run the dashboard:
+3. In a **new terminal**, run the dashboard:
 
    ```bash
    python dashboard.py
    ```
 
-3. Open your browser and visit:
+4. Open your browser and visit:
 
    [http://127.0.0.1:4070/](http://127.0.0.1:4070/)
 

@@ -168,7 +168,7 @@ def get_second_page_layout():
     df_no_data = station_df[station_df['has_data_str'] == 'No Data']
 
     # Create map traces
-    trace_no_data = go.Scattermapbox(
+    trace_no_data = go.Scattermap(
         lat=df_no_data['latitude'],
         lon=df_no_data['longitude'],
         mode='markers',
@@ -187,7 +187,7 @@ def get_second_page_layout():
         name='No Data'
     )
 
-    trace_available = go.Scattermapbox(
+    trace_available = go.Scattermap(
         lat=df_available['latitude'],
         lon=df_available['longitude'],
         mode='markers',
@@ -209,9 +209,9 @@ def get_second_page_layout():
     # Create map figure
     fig = go.Figure(data=[trace_no_data, trace_available])
     fig.update_layout(
-        mapbox_style="open-street-map",
-        mapbox_zoom=6,
-        mapbox_center={"lat": MAP_CENTER_LAT, "lon": MAP_CENTER_LON},
+        map_style="open-street-map",
+        map_zoom=6,
+        map_center={"lat": MAP_CENTER_LAT, "lon": MAP_CENTER_LON},
         margin={"r":0,"t":0,"l":0,"b":0},
         showlegend=True,
         title=None

@@ -17,28 +17,28 @@ import hashlib
 # --- API Configuration ---
 FLASK_API_URL = "http://127.0.0.1:5000"
 
-# Global DataFrame to store user login data
-global df_users
-df_users = pd.DataFrame(columns=['username', 'password_hash'])
+# # Global DataFrame to store user login data
+# global df_users
+# df_users = pd.DataFrame(columns=['username', 'password_hash'])
 
-def load_users():
-    """Load user login data from Flask endpoint with retry logic"""
-    global df_users
-    if df_users.empty:
-        for attempt in range(5):  # Try 5 times
-            try:
-                url = "http://localhost:5000/users"
-                response = requests.get(url, timeout=5)
-                response.raise_for_status()
-                data = response.json()
-                df_users = pd.DataFrame(data)
-                print("User data loaded successfully from Flask endpoint")
-                break
-            except Exception as e:
-                print(f"Attempt {attempt + 1}: Error loading user data from /users:", e)
-                if attempt < 4:
-                    time.sleep(1)
-    return df_users
+# def load_users():
+#     """Load user login data from Flask endpoint with retry logic"""
+#     global df_users
+#     if df_users.empty:
+#         for attempt in range(5):  # Try 5 times
+#             try:
+#                 url = "http://localhost:5000/users"
+#                 response = requests.get(url, timeout=5)
+#                 response.raise_for_status()
+#                 data = response.json()
+#                 df_users = pd.DataFrame(data)
+#                 print("User data loaded successfully from Flask endpoint")
+#                 break
+#             except Exception as e:
+#                 print(f"Attempt {attempt + 1}: Error loading user data from /users:", e)
+#                 if attempt < 4:
+#                     time.sleep(1)
+#     return df_users
 
 def get_station_locations():
     """
@@ -492,11 +492,11 @@ def update_initial_map(pathname):
                 line_colors.append(marker_line_color) 
                 line_widths.append(marker_line_width) 
 
-            fig.add_trace(go.Scattermapbox(
+            fig.add_trace(go.Scattermap(
                 lat=station_data_display['latitude'], 
                 lon=station_data_display['longitude'], 
                 mode='markers',
-                marker=go.scattermapbox.Marker(
+                marker=go.scattermap.Marker(
                     size=sizes,
                     color=colors,
                     opacity=0.8,
@@ -514,7 +514,7 @@ def update_initial_map(pathname):
             locations = list(shapefile_gdf.index)
             z_values = [i for i in range(len(shapefile_gdf))]
 
-            fig.add_trace(go.Choroplethmapbox(
+            fig.add_trace(go.Choroplethmap(
                 geojson=geojson_data,
                 locations=locations,
                 z=z_values,
@@ -529,9 +529,9 @@ def update_initial_map(pathname):
             ))
 
         fig.update_layout(
-            mapbox_style="open-street-map",
-            mapbox_zoom=7,
-            mapbox_center={"lat": 45.4642, "lon": 9.1900}, # Centered around Milan
+            map_style="open-street-map",
+            map_zoom=7,
+            map_center={"lat": 45.4642, "lon": 9.1900}, # Centered around Milan
             margin={"r":0,"t":0,"l":0,"b":0},
             height=500,
             title_text="Current Station Locations", # Updated map title
